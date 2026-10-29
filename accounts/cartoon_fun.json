@@ -1,0 +1,30 @@
+{
+  "id": "cartoon_fun",
+  "name": "CartoonBrain",
+  "tagline": "Learn While You Laugh",
+  "niche": "Funny Educational Cartoons",
+  "content_types": ["short_reel", "cartoon_video"],
+  "schedule": {
+    "short_reel": ["10:00", "15:00", "20:00"],
+    "cartoon_video": ["12:00"]
+  },
+  "visual_style": "anime",
+  "subtitle_style": "fire_coral",
+  "bgm_style": "lofi_chill",
+  "tts_voice": "en-US-AriaNeural",
+  "tts_rate": "+15%",
+  "color_primary": "#FF6B6B",
+  "color_bg": "#FFF9E6",
+  "color_text": "#2D2D2D",
+  "long_video_duration_min": 5,
+  "facebook": {
+    "page_id_env": "FB_PAGE_ID_CARTOON",
+    "token_env": "FB_TOKEN_CARTOON"
+  },
+  "youtube": {
+    "credentials_file": "yt_cartoon.pickle",
+    "client_secrets": "client_secret_cartoon.json"
+  },
+  "enabled": false,
+  "auto_reel_from_long": false
+}

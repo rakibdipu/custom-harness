@@ -1,0 +1,1046 @@
+{
+  "account_id": "comic_viral",
+  "channel_name": "TooReal Facts",
+  "tagline": "Too Real Not to Share",
+  "niche": "Relatable Comedy & Memes",
+  "total_days": 30,
+  "videos_per_day": 3,
+  "total_videos": 90,
+  "style_config": {
+    "visual_style": "comic_popart",
+    "subtitle_style": "neon_green",
+    "bgm_style": "lofi_chill",
+    "tts_voice": "en-US-ChristopherNeural",
+    "tts_rate": "+20%",
+    "color_primary": "#00FF88",
+    "color_bg": "#111111",
+    "color_text": "#FFFFFF"
+  },
+  "structure": {
+    "morning": {"time": "09:30", "type": "A", "role": "Relatable Setup (Familiar Reality)"},
+    "afternoon": {"time": "14:30", "type": "B", "role": "Absurd Escalation (Chaos Progression)"},
+    "evening": {"time": "20:30", "type": "C", "role": "Brutal Punchline / Comment Bait"}
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Morning Chaos",
+      "trend_signal": "Everyday Relatable Humor & Imperfect Life",
+      "videos": [
+        {
+          "id": "01A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Your Alarm Is Basically a Personal Attack",
+          "hook": "Your alarm doesn't wake you up. It starts an argument.",
+          "punchline": "At this point you're not late. You're spiritually absent.",
+          "comment_bait": "Who else hits snooze at least 4 times?"
+        },
+        {
+          "id": "01B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The 5-Minute Snooze That Changed Everything",
+          "hook": "I said five more minutes. The universe heard fifty.",
+          "punchline": "I didn't oversleep. I accidentally entered tomorrow.",
+          "comment_bait": "Tag that friend who is late to everything."
+        },
+        {
+          "id": "01C",
+          "slot": "evening",
+          "type": "C",
+          "title": "When You Wake Up Before Your Alarm",
+          "hook": "Nothing is more disrespectful than waking up two minutes before your alarm.",
+          "punchline": "Your brain really said: let me ruin this peacefully.",
+          "comment_bait": "The worst feeling known to humanity. Yes or no?"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "“I'll Do It Later”",
+      "trend_signal": "Procrastination & Self-Improvement Irony",
+      "videos": [
+        {
+          "id": "02A",
+          "slot": "morning",
+          "type": "A",
+          "title": "I'll Do It Later Has Destroyed More Plans Than Failure",
+          "hook": "Future me has absolutely no idea how much work I just gave him.",
+          "punchline": "I don't procrastinate. I delegate to an innocent stranger.",
+          "comment_bait": "What are you postponing right this second?"
+        },
+        {
+          "id": "02B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Future Me Is Apparently a Superhuman",
+          "hook": "Today-me can barely get off the couch, but tomorrow-me is solving world hunger.",
+          "punchline": "Future me deserves hazard pay and emotional compensation.",
+          "comment_bait": "Why do we trust tomorrow-me so much?"
+        },
+        {
+          "id": "02C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Me Making Problems for Tomorrow-Me",
+          "hook": "It's 11:59 PM and I'm planning my brand new life starting at 6 AM.",
+          "punchline": "Tomorrow-me woke up and immediately chose violence against yesterday-me.",
+          "comment_bait": "Tell me your favorite midnight lie."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Student Life & Study Delusion",
+      "trend_signal": "#lockedin vs Reality & Snack Breaks",
+      "videos": [
+        {
+          "id": "03A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Me Opening the Book and Suddenly Needing Water",
+          "hook": "I open page one, and suddenly my body discovers severe dehydration.",
+          "punchline": "Technically, I studied the molecular structure of tap water.",
+          "comment_bait": "What is your go-to study distraction?"
+        },
+        {
+          "id": "03B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Cleaning Your Entire Room Instead of Studying",
+          "hook": "I had an exam in 8 hours, so naturally I deep-cleaned behind the refrigerator.",
+          "punchline": "Failed the exam, but the baseboards are sparkling.",
+          "comment_bait": "Why does cleaning become a passion during finals?"
+        },
+        {
+          "id": "03C",
+          "slot": "evening",
+          "type": "C",
+          "title": "The 10-Minute Study Session",
+          "hook": "I studied hard for 4 minutes. I deserve a 3-hour documentary break.",
+          "punchline": "Studied for 10 minutes, rested for three business days.",
+          "comment_bait": "Rate your attention span from 1 to goldfish."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Phone Addiction Reflex",
+      "trend_signal": "Digital Overstimulation & Unconscious Habits",
+      "videos": [
+        {
+          "id": "04A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Checking Your Phone While Holding Your Phone",
+          "hook": "I panicked looking for my phone while actively holding my phone with my flashlight on.",
+          "punchline": "My brain is running on 2G dial-up internet.",
+          "comment_bait": "Be honest: have you ever searched for your phone while using it?"
+        },
+        {
+          "id": "04B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Opening Instagram Without Knowing Why",
+          "hook": "I closed the app because I was bored, and immediately opened it again 0.4 seconds later.",
+          "punchline": "Muscle memory is currently running my entire existence.",
+          "comment_bait": "How many times did you open an app without thinking today?"
+        },
+        {
+          "id": "04C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Unlocking Your Phone and Immediately Forgetting Why",
+          "hook": "I picked up my phone with a serious mission, stared at the home screen, and forgot everything.",
+          "punchline": "Maybe the secret mission was just to stare into the void.",
+          "comment_bait": "Drop a '💀' if your brain factory reset today."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "“One More Video”",
+      "trend_signal": "Infinite Feeds & 2 AM Rabbit Holes",
+      "videos": [
+        {
+          "id": "05A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Just One More Video Before Sleep",
+          "hook": "I promised myself one final video at 11 PM. It is now 3:42 AM.",
+          "punchline": "The algorithm didn't just win; it took custody of my sleep schedule.",
+          "comment_bait": "What time did you sleep last night?"
+        },
+        {
+          "id": "05B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Algorithm Knows You're Weak",
+          "hook": "You try to close the app, and the algorithm drops the exact video you can't resist.",
+          "punchline": "That wasn't personalized content; that was a direct ambush.",
+          "comment_bait": "Does your FYP know you better than your family?"
+        },
+        {
+          "id": "05C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Am I Watching a Man Restore an Old Boat?",
+          "hook": "It's 2 AM and I'm deeply invested in a stranger fixing a 1982 canoe with epoxy.",
+          "punchline": "I don't even live near water, but I know how to sand teakwood now.",
+          "comment_bait": "What's the weirdest 3 AM video you've watched?"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Online Shopping Delusions",
+      "trend_signal": "Micro-Retail Therapy & Cart Hoarding",
+      "videos": [
+        {
+          "id": "06A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Adding It to Cart Is Basically Buying It",
+          "hook": "Putting 47 items in my online cart gives me dopamine without spending a dollar.",
+          "punchline": "My wishlist is worth 4 million dollars. My bank balance is worth a cheeseburger.",
+          "comment_bait": "How many items are currently rotting in your online cart?"
+        },
+        {
+          "id": "06B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "I Don't Need It, But It's 40% Off",
+          "hook": "I wasn't looking for a motorized egg cracker, but it was on sale so technically I'm making money.",
+          "punchline": "Saving 40 dollars by spending 80 is my peak financial mastery.",
+          "comment_bait": "What's the most useless thing you bought because it was on sale?"
+        },
+        {
+          "id": "06C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Checking Your Bank Account After Shopping",
+          "hook": "Opening my banking app after a delivery spree with one eye closed.",
+          "punchline": "Balance: emotionally unavailable and financially offended.",
+          "comment_bait": "Who else is afraid of their banking app notifications?"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Group Chat Chaos",
+      "trend_signal": "Comment Culture & Community Chaos",
+      "videos": [
+        {
+          "id": "07A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Group Chat at 2 AM",
+          "hook": "The group chat was completely dead for 3 weeks until 2:14 AM on a Tuesday.",
+          "punchline": "Suddenly 42 unread voice notes debating whether aliens like pizza.",
+          "comment_bait": "Why are group chats only alive when everyone should be sleeping?"
+        },
+        {
+          "id": "07B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Nobody Replies All Day Until You're Busy",
+          "hook": "I send a text at 10 AM: silence. I step into a shower at 6 PM: 18 phone calls.",
+          "punchline": "They don't have notifications; they have motion sensors for when I'm occupied.",
+          "comment_bait": "Why does everyone text right when you start cooking or showering?"
+        },
+        {
+          "id": "07C",
+          "slot": "evening",
+          "type": "C",
+          "title": "That One Friend Who Sends 17 Messages Separately",
+          "hook": "Bro doesn't send a sentence. Bro sends individual words per notification.",
+          "punchline": "Bro discovered the Enter key and decided to make it everyone else's problem.",
+          "comment_bait": "Tag the friend who sends 10 texts instead of 1."
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "theme": "Workplace Meetings",
+      "trend_signal": "#joblife & Modern Corporate Comedy",
+      "videos": [
+        {
+          "id": "08A",
+          "slot": "morning",
+          "type": "A",
+          "title": "When Your Boss Says “Quick Meeting”",
+          "hook": "There is no such thing as a quick meeting. It's always a 45-minute psychological thriller.",
+          "punchline": "Quick meeting: 4 minutes of agenda, 41 minutes of 'Can everyone see my screen?'",
+          "comment_bait": "What does 'quick meeting' actually mean in your office?"
+        },
+        {
+          "id": "08B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Meeting That Could Have Been an Email",
+          "hook": "We just spent an hour in a meeting to agree to send an email summarizing the meeting.",
+          "punchline": "I could have read that in 12 seconds while eating a bagel.",
+          "comment_bait": "How many useless meetings did you survive this week?"
+        },
+        {
+          "id": "08C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Pretending to Understand the Meeting",
+          "hook": "Nodding intensely during the slide presentation while thinking about lunch.",
+          "punchline": "I understood every word individually, but together they formed complete gibberish.",
+          "comment_bait": "Drop a '🤝' if your corporate nodding game is 10/10."
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "theme": "Work-From-Home Realities",
+      "trend_signal": "#joblife & Remote Work Absurdities",
+      "videos": [
+        {
+          "id": "09A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Working From Home Means Working From Bed",
+          "hook": "My ergonomic home office setup is literally my spine folded into an origami swan in bed.",
+          "punchline": "My laptop fan is screaming and my posture has resigned.",
+          "comment_bait": "Bed desk vs couch desk: which one is ruining your back?"
+        },
+        {
+          "id": "09B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Camera Off = Professionalism Off",
+          "hook": "The moment that camera is disabled, I am wearing pajamas and eating soup directly from the pot.",
+          "punchline": "Professional voice in the mic, total chaos in the room.",
+          "comment_bait": "What's the weirdest thing you did with camera turned off?"
+        },
+        {
+          "id": "09C",
+          "slot": "evening",
+          "type": "C",
+          "title": "When Someone Says “Can You Share Your Screen?”",
+          "hook": "Immediate panic. Closing 73 random tabs, 4 meme generators, and an online shopping cart in 1.2 seconds.",
+          "punchline": "Suddenly my desktop becomes classified national intelligence.",
+          "comment_bait": "How many frantic tabs do you close before screen sharing?"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "theme": "Office Lore & Micro-Drama",
+      "trend_signal": "Micro-Drama & Corporate Survival",
+      "videos": [
+        {
+          "id": "10A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Coworker Who Says “Quick Question”",
+          "hook": "A 'quick question' always requires you to open 5 spreadsheets from 2021.",
+          "punchline": "It was neither quick nor a question; it was an assignment.",
+          "comment_bait": "Tag the person who gives you 3-hour 'quick questions'."
+        },
+        {
+          "id": "10B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "When Someone Says “We Need to Talk”",
+          "hook": "Those four words make your entire life flash before your eyes in 4K resolution.",
+          "punchline": "I started rehearsing apologies for things I did in third grade.",
+          "comment_bait": "Why is 'we need to talk' the scariest phrase in English?"
+        },
+        {
+          "id": "10C",
+          "slot": "evening",
+          "type": "C",
+          "title": "The Office Printer Has Personal Beef With Me",
+          "hook": "It prints 400 pages for Bob, but the second I walk near it: 'Paper Jam in Tray 7.'",
+          "punchline": "That machine isn't broken; it has personal grudge against my aura.",
+          "comment_bait": "What appliance in your life clearly hates you?"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "theme": "Social Battery Drain",
+      "trend_signal": "Social Fatigue & Low-Stimulation Humor",
+      "videos": [
+        {
+          "id": "11A",
+          "slot": "morning",
+          "type": "A",
+          "title": "My Social Battery Has 3% Left",
+          "hook": "I was having fun for exactly 42 minutes. Now I need 4 business days of silent isolation.",
+          "punchline": "Please do not make eye contact; low power mode enabled.",
+          "comment_bait": "How long does your social battery last in a party?"
+        },
+        {
+          "id": "11B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "When Someone Comes Over Without Warning",
+          "hook": "A doorbell ring without a prior 48-hour notice text is a home invasion.",
+          "punchline": "Turn off all lights, drop to the carpet, act like the house is abandoned.",
+          "comment_bait": "Do you freeze when unexpected guests knock?"
+        },
+        {
+          "id": "11C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Leaving the Party and Becoming Alive Again",
+          "hook": "Sitting in your car in total silence for 15 minutes after socializing is pure holy therapy.",
+          "punchline": "I didn't leave early; I escaped with my soul intact.",
+          "comment_bait": "Is the quiet car ride home the best part of going out?"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "Introvert Superpowers & Excuses",
+      "trend_signal": "Introvert Relatability & Chaos Culture",
+      "videos": [
+        {
+          "id": "12A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Canceling Plans Is My Favorite Plan",
+          "hook": "The rush of relief when someone cancels plans you agreed to 2 weeks ago is unmatched.",
+          "punchline": "I didn't want to go, you didn't want to go, we are both heroes.",
+          "comment_bait": "What's the best feeling: canceled plans or clean bedsheets?"
+        },
+        {
+          "id": "12B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "When Someone Says “Let's Hang Out Tomorrow”",
+          "hook": "Why would I agree to ruin a perfectly peaceful tomorrow with human interaction?",
+          "punchline": "Tomorrow is reserved for staring at the ceiling and breathing quietly.",
+          "comment_bait": "How far in advance do you need to prepare for hanging out?"
+        },
+        {
+          "id": "12C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Me Recharging After Saying Hello to Someone",
+          "hook": "I said 'Good morning' with genuine enthusiasm. Now I am physically depleted.",
+          "punchline": "That single syllable took 40% of my weekly emotional budget.",
+          "comment_bait": "Tell me you're an introvert without telling me you're an introvert."
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "Texting Over-Analysis",
+      "trend_signal": "Micro-Drama & Chat Forensics",
+      "videos": [
+        {
+          "id": "13A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Typing a Reply for 20 Minutes",
+          "hook": "Drafting a 3-word message like it's a peace treaty between nuclear superpowers.",
+          "punchline": "Types, deletes, rewrites, changes emoji, discards, and doesn't send.",
+          "comment_bait": "How long do you spend crafting simple texts?"
+        },
+        {
+          "id": "13B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Reading “K” Like a Courtroom Transcript",
+          "hook": "Receiving a single letter 'K' with a period is a direct declaration of war.",
+          "punchline": "Analyzing the font weight and vibrational frequency of that 'K'.",
+          "comment_bait": "Is 'K.' the most aggressive text ever created?"
+        },
+        {
+          "id": "13C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Deleting a Message Because It Sounds Too Desperate",
+          "hook": "Two exclamation marks? Absolutely not, they'll think I want to marry them.",
+          "punchline": "Reduced 4 paragraphs of enthusiasm down to 'yeah cool'.",
+          "comment_bait": "Do you also delete exclamation marks to seem cool?"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "Left on Read Chronicles",
+      "trend_signal": "Darker Relatable Irony & Modern Ghosting",
+      "videos": [
+        {
+          "id": "14A",
+          "slot": "morning",
+          "type": "A",
+          "title": "They Saw It. Now What?",
+          "hook": "Two blue ticks appear. My brain begins writing a 6-part mini-series on why they hate me.",
+          "punchline": "The FBI has fewer surveillance files than my overthinking brain.",
+          "comment_bait": "How long after 'seen' before the panic kicks in?"
+        },
+        {
+          "id": "14B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Checking Last Seen Like a Detective",
+          "hook": "Cross-referencing their Instagram story timestamp with their WhatsApp last seen.",
+          "punchline": "I don't need a private investigator; I need emotional regulation.",
+          "comment_bait": "Are you a level 1 texter or a level 100 detective?"
+        },
+        {
+          "id": "14C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Creating 14 Possible Reasons They Didn't Reply",
+          "hook": "Maybe their phone fell into a volcano? Maybe they were recruited by MI6?",
+          "punchline": "They were just taking a nap. Please do not bring logic into my chaos.",
+          "comment_bait": "What's the wildest excuse you invented for someone not texting back?"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "Modern Dating Delusions",
+      "trend_signal": "Shared Humor & Dating Absurdities",
+      "videos": [
+        {
+          "id": "15A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The First Date Personality",
+          "hook": "Who is this polite, organized person sitting across the table? Because it is definitely not me.",
+          "punchline": "My representative showed up for the first date; real me is hiding at home.",
+          "comment_bait": "How long do you maintain your 'first date representative'?"
+        },
+        {
+          "id": "15B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Me Pretending I Eat Healthy",
+          "hook": "Ordering a kale salad on date one, when my natural habitat is a family-size pizza at midnight.",
+          "punchline": "Nibbling lettuce like a sophisticated rabbit while dreaming of mozzarella.",
+          "comment_bait": "What food do you pretend to like on dates?"
+        },
+        {
+          "id": "15C",
+          "slot": "evening",
+          "type": "C",
+          "title": "When They Say “I'm Not Looking for Anything Serious”",
+          "hook": "Translation: I'm not looking for anything serious with you, but I'll get married next month.",
+          "punchline": "Thank you for the emotional clarity; I will now write a comedy sketch about this.",
+          "comment_bait": "What's the most common dating translation you've heard?"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "Low-Maintenance Friendship",
+      "trend_signal": "Community Humor & Long-Term Bonds",
+      "videos": [
+        {
+          "id": "16A",
+          "slot": "morning",
+          "type": "A",
+          "title": "That Friend Who Disappears for 6 Months",
+          "hook": "Zero texts since last summer. Then suddenly: 'Look at this funny raccoon video.'",
+          "punchline": "No 'how are you', no apology, just straight back to nonsense. Best friends forever.",
+          "comment_bait": "Tag the low-maintenance friend you haven't seen all year."
+        },
+        {
+          "id": "16B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Then Comes Back Like Nothing Happened",
+          "hook": "We haven't spoken in 180 days, but picking up mid-sentence without a warmup.",
+          "punchline": "Our friendship doesn't require subscription fees or daily updates.",
+          "comment_bait": "Are you the ghost friend or the receiver friend?"
+        },
+        {
+          "id": "16C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Friendship Doesn't Need Daily Maintenance",
+          "hook": "True friendship is knowing we are both overwhelmed goblins surviving our own chaos.",
+          "punchline": "We'll catch up in 2028. Send memes in the meantime.",
+          "comment_bait": "Drop a '❤️' for friends who never judge silence."
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "Family Affection & Chaos",
+      "trend_signal": "Observational Family Humor & Shared Relatability",
+      "videos": [
+        {
+          "id": "17A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Parents When You Sleep Past 9 AM",
+          "hook": "Sleeping until 9:01 AM: Parents walking around vacuuming walls and making speeches.",
+          "punchline": "According to them, waking up after sunrise equals losing the entire decade.",
+          "comment_bait": "What is the official 'wake up' alarm in your house?"
+        },
+        {
+          "id": "17B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Parents Asking If You Ate",
+          "hook": "You can have a broken leg, failed exams, and a ruined car: 'Did you eat lunch though?'",
+          "punchline": "Food is their universal cure for emotional and economic depression.",
+          "comment_bait": "Why is food the only love language parents know?"
+        },
+        {
+          "id": "17C",
+          "slot": "evening",
+          "type": "C",
+          "title": "The Family Group Chat Drama",
+          "hook": "64 good morning flowers, 12 fake health warnings, and one accidental forwarded voice note.",
+          "punchline": "The family group chat is where medical misinformation meets flower emojis.",
+          "comment_bait": "How many good morning stickers in your family chat right now?"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "Food Logic & Stolen Fries",
+      "trend_signal": "Everyday Shared Habits & Food Comedy",
+      "videos": [
+        {
+          "id": "18A",
+          "slot": "morning",
+          "type": "A",
+          "title": "“I'm Not Hungry” (The Greatest Lie)",
+          "hook": "Saying 'I don't want anything' at the drive-thru, then staring at your burger like a predator.",
+          "punchline": "I didn't order food because I ordered your food.",
+          "comment_bait": "Tag the person who says 'I'm not hungry' and eats half your plate."
+        },
+        {
+          "id": "18B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Someone Opens a Bag of Chips",
+          "hook": "The sound of a foil chip bag tearing can wake someone up from a 10-year coma.",
+          "punchline": "Suddenly everyone in a 50-meter radius turns into friendly pigeons.",
+          "comment_bait": "How quiet do you try to open snacks at midnight?"
+        },
+        {
+          "id": "18C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Does Your Food Taste Better Than Mine?",
+          "hook": "We ordered the exact same fries, but the ones on your plate possess magical seasoning.",
+          "punchline": "Your fries were legally better. It's scientifically impossible to disprove.",
+          "comment_bait": "Why are other people's fries always 10x tastier?"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "Coffee Dependency Spectrum",
+      "trend_signal": "Energy Economics & Morning Transformation",
+      "videos": [
+        {
+          "id": "19A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Before Coffee vs After Coffee",
+          "hook": "Before coffee: an angry potato with eyes. After coffee: an anxious potato with dreams.",
+          "punchline": "Coffee doesn't give me superpowers; it just enables human speech.",
+          "comment_bait": "How many cups before you are safe to talk to?"
+        },
+        {
+          "id": "19B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Saying “I'm Fine” Before Coffee",
+          "hook": "Asking me a question before my morning espresso is a direct safety hazard.",
+          "punchline": "My personality is currently loading. Please wait 10 to 15 minutes.",
+          "comment_bait": "Do you have a morning 'do not speak to me' zone?"
+        },
+        {
+          "id": "19C",
+          "slot": "evening",
+          "type": "C",
+          "title": "The First Sip Changes My Personality",
+          "hook": "That first sip of warm caffeine hits like an operating system update for my skeleton.",
+          "punchline": "Suddenly I believe I can reply to emails and pay bills.",
+          "comment_bait": "Drop a '☕' if coffee is your true best friend."
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "Money & Salary Lifecycle",
+      "trend_signal": "Unserious Financial Irony & Payday Culture",
+      "videos": [
+        {
+          "id": "20A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Checking Your Bank Account After the Weekend",
+          "hook": "I had 10 dollars on Friday. How did I manage to spend 84 dollars over two days?",
+          "punchline": "Weekend math doesn't follow normal mathematical physics.",
+          "comment_bait": "Where does weekend money actually vanish?"
+        },
+        {
+          "id": "20B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Salary Day vs 20 Days Later",
+          "hook": "Day 1: Gordon Ramsay dining. Day 20: Instant noodles with tap water broth.",
+          "punchline": "My salary entered my account and immediately left through the emergency exit.",
+          "comment_bait": "How long does your payday excitement last? Hours or days?"
+        },
+        {
+          "id": "20C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Opening My Banking App Like a Horror Movie",
+          "hook": "Covering the top of the screen with my hand so the balance doesn't jump-scare me.",
+          "punchline": "The balance isn't low; it's practically endangered.",
+          "comment_bait": "Who checks their balance with one eye closed?"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "“Lock In” Comedy Breakdown",
+      "trend_signal": "#lockedin Trend Breakdown & Self-Delusion",
+      "videos": [
+        {
+          "id": "21A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Me Saying “I'm Locking In”",
+          "hook": "Put on the hoodie, put on lo-fi music, set phone to Do Not Disturb. I am invincible.",
+          "punchline": "I declared a lock-in with maximum drama and zero preparation.",
+          "comment_bait": "What is your ritual when you try to 'lock in'?"
+        },
+        {
+          "id": "21B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Me 17 Minutes After Locking In",
+          "hook": "17 minutes into my intense study session, I am researching how medieval swords were made.",
+          "punchline": "The lock-in didn't fail; it evolved into irrelevant historical curiosity.",
+          "comment_bait": "How long does your 'locked in' streak actually last?"
+        },
+        {
+          "id": "21C",
+          "slot": "evening",
+          "type": "C",
+          "title": "The Lock-In Lasted Until Lunch",
+          "hook": "One chicken sandwich and my entire warrior mindset completely dissolved.",
+          "punchline": "Carbohydrates defeated my productivity in round two.",
+          "comment_bait": "What food instantly destroys your productivity?"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "Productivity Delusion & Aesthetic",
+      "trend_signal": "Productivity Overload & Action Avoidance",
+      "videos": [
+        {
+          "id": "22A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Buying a Planner Instead of Planning",
+          "hook": "Spent 40 dollars on a leather journal with 200 pages. Wrote 'Goals' on page 1. Never opened it again.",
+          "punchline": "Buying the equipment gave me the dopamine of doing the actual work.",
+          "comment_bait": "How many blank notebooks do you currently own?"
+        },
+        {
+          "id": "22B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Watching Productivity Videos Instead of Working",
+          "hook": "Watching a billionaire's 4 AM morning routine video while lying horizontally in bed at 1 PM.",
+          "punchline": "I'm not wasting time; I'm mentally preparing for 2035.",
+          "comment_bait": "Do productivity videos make you work or make you nap?"
+        },
+        {
+          "id": "22C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Making a 17-Step Morning Routine",
+          "hook": "Cold plunge, green juice, journaling, meditation, sunlight, stretching... it's 2 PM and I haven't started work.",
+          "punchline": "Step 18: maybe do your actual job?",
+          "comment_bait": "What's the most ridiculous step in your ideal morning routine?"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "Panic Cleaning as Work Avoidance",
+      "trend_signal": "Procrasticleaning & Dopamine Substitution",
+      "videos": [
+        {
+          "id": "23A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Cleaning When You're Avoiding Work",
+          "hook": "Deadlines approaching? Suddenly I am deeply passionate about organizing spice jars alphabetically.",
+          "punchline": "Procrastination with clean laundry is still procrastination.",
+          "comment_bait": "What weird thing do you clean when avoiding work?"
+        },
+        {
+          "id": "23B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Suddenly I Need to Organize Everything",
+          "hook": "I can't write this report until my socks are color-coded and my bookshelf is categorized by genre.",
+          "punchline": "My brain creating side quests to avoid the final boss.",
+          "comment_bait": "Why does organizing feel so urgent when deadlines are close?"
+        },
+        {
+          "id": "23C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Cleaning One Drawer and Feeling Accomplished",
+          "hook": "Organized the top desk drawer, threw away two dry pens. I have contributed enough to society today.",
+          "punchline": "Celebrating minor drawer cleanliness like a Nobel prize victory.",
+          "comment_bait": "Drop a '🏆' if you celebrate the tiniest cleanings."
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "2000s Nostalgia Remix",
+      "trend_signal": "Nostalgia Remix & Old Internet Throwbacks",
+      "videos": [
+        {
+          "id": "24A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Things That Were Normal in the 2000s",
+          "hook": "Waiting 45 minutes to download one MP3 song, only for it to be Bill Clinton saying nonsense.",
+          "punchline": "We had patience made of titanium back then.",
+          "comment_bait": "What old tech memory do you miss the most?"
+        },
+        {
+          "id": "24B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "When Phones Couldn't Do Everything",
+          "hook": "Remember when your phone had 12 buttons, lasted 6 days on battery, and only played Snake?",
+          "punchline": "You couldn't doomscroll; you just played Snake until your thumbs cramped.",
+          "comment_bait": "Did you ever play Snake on a Nokia 3310?"
+        },
+        {
+          "id": "24C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Old Internet Was a Different Species",
+          "hook": "Blowing dust out of a game cartridge and hearing the dial-up modem scream at 56 kbps.",
+          "punchline": "Kids today will never understand the terror of someone picking up the landline phone.",
+          "comment_bait": "Tag someone who remembers dial-up internet sound."
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "Cozy & Low-Stimulation Life",
+      "trend_signal": "Low-Stimulation Living & Slow Content",
+      "videos": [
+        {
+          "id": "25A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Canceling Plans and Staying Home",
+          "hook": "My weekend itinerary: Soft blanket, dim lighting, heavy snacks, zero human conversation.",
+          "punchline": "I'm not boring; I'm aggressively resting.",
+          "comment_bait": "What is your perfect cozy weekend setup?"
+        },
+        {
+          "id": "25B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Rain + Blanket + Phone = Perfection",
+          "hook": "When it starts raining outside and you have zero obligations to leave your room.",
+          "punchline": "That is not weather; that is an official excuse from the universe.",
+          "comment_bait": "Does rain automatically make you 200% more comfortable?"
+        },
+        {
+          "id": "25C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Doing Absolutely Nothing but Feeling Productive",
+          "hook": "I lay on the rug and stared at a dust particle floating in the sun for 40 minutes.",
+          "punchline": "My schedule tonight? Exist peacefully without apology.",
+          "comment_bait": "Drop a '🛌' if you love doing absolutely nothing."
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "Chaos Culture & Absurdist Disasters",
+      "trend_signal": "Chaos Culture & Irony Memes",
+      "videos": [
+        {
+          "id": "26A",
+          "slot": "morning",
+          "type": "A",
+          "title": "When Everything Goes Wrong in One Day",
+          "hook": "Spilled coffee, missed bus, forgot password, tore shoelace all before 9:15 AM.",
+          "punchline": "At this point, you don't get angry; you just laugh at the circus.",
+          "comment_bait": "What's the most chaotic morning you've ever had?"
+        },
+        {
+          "id": "26B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Universe Has a Personal Problem With Me",
+          "hook": "Drop a piece of toast, and it calculates the exact trajectory to land butter-side down on your white socks.",
+          "punchline": "Physics takes a personal interest in ruining my day.",
+          "comment_bait": "Has the universe ever targeted you with surgical precision?"
+        },
+        {
+          "id": "26C",
+          "slot": "evening",
+          "type": "C",
+          "title": "At This Point I'm Just Watching the Disaster",
+          "hook": "When life starts falling apart so fast you just grab popcorn and watch.",
+          "punchline": "I am no longer the main character; I am an amused spectator of my own downfall.",
+          "comment_bait": "How do you cope with chaotic days? Laugh or scream?"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "Comment Section Culture",
+      "trend_signal": "Comments as Creative Canvas & Inside Jokes",
+      "videos": [
+        {
+          "id": "27A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Comments Are Funnier Than the Video",
+          "hook": "The video was average, but top comment had me crying on my floor at 2 AM.",
+          "punchline": "Comment section comedians are carrying the entire internet on their backs.",
+          "comment_bait": "Tell me you do this without telling me you do this."
+        },
+        {
+          "id": "27B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "That One Person in Every Comment Section",
+          "hook": "There's always someone commenting 'Bro really thought we wouldn't notice' on normal things.",
+          "punchline": "Bro is commenting from 3026 with unhinged observations.",
+          "comment_bait": "Tag someone whose humor belongs in a museum."
+        },
+        {
+          "id": "27C",
+          "slot": "evening",
+          "type": "C",
+          "title": "When Someone Says Exactly What You Were Thinking",
+          "hook": "Scrolling down to see if anyone noticed the tiny detail, and the top comment wrote your exact thought word-for-word.",
+          "punchline": "We are all sharing the exact same 3 brain cells on this platform.",
+          "comment_bait": "Drop a '🧠' if you feel the internet is one shared brain."
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "theme": "Second Account / Secret Internet Personality",
+      "trend_signal": "Multiple Online Identities & Secret Fandoms",
+      "videos": [
+        {
+          "id": "28A",
+          "slot": "morning",
+          "type": "A",
+          "title": "My Main Account vs My Secret Account",
+          "hook": "Main account: Polite professional who likes motivational quotes. Alt account: feral menace saving chaotic memes.",
+          "punchline": "Duality of human existence packed into one login screen.",
+          "comment_bait": "How different is your secret account from your main?"
+        },
+        {
+          "id": "28B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Personality I Show Online vs Real Life",
+          "hook": "Online: mysterious, aesthetic, concise. Real life: tripping on flat ground while wearing mismatched socks.",
+          "punchline": "The curated aesthetic lasts until I open my mouth in public.",
+          "comment_bait": "Which one is real: your feed or your bedroom floor?"
+        },
+        {
+          "id": "28C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Nobody Knows My Real Internet Personality",
+          "hook": "If anyone saw my saved folders and watch history, I would have to change my legal name and move to Iceland.",
+          "punchline": "Some algorithms are sacred and must stay buried forever.",
+          "comment_bait": "Would you rather show your bank statement or your search history?"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "theme": "Sunday Night Reset Delusions",
+      "trend_signal": "Weekly Goal Reset Fatigue & Sunday Scaries",
+      "videos": [
+        {
+          "id": "29A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Me Trying to Fix My Entire Life on Sunday",
+          "hook": "It's 9 PM on Sunday and I've decided to become an athlete, scholar, chef, and entrepreneur by 6 AM tomorrow.",
+          "punchline": "Sunday ambition is the purest form of fictional literature.",
+          "comment_bait": "What is the biggest life revamp you planned on a Sunday?"
+        },
+        {
+          "id": "29B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Making 17 Goals at Midnight",
+          "hook": "Writing down: 5 AM gym, 3 liters of water, read 50 pages, learn German, eliminate sugar.",
+          "punchline": "Monday morning: Wakes up at 8:45 AM, grabs a cookie.",
+          "comment_bait": "How many Sunday goals survive past 9 AM Monday?"
+        },
+        {
+          "id": "29C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Monday Me Has No Idea What Sunday Me Planned",
+          "hook": "Monday morning alarm goes off, looking at Sunday's schedule with sheer disgust and confusion.",
+          "punchline": "Who wrote this unrealistic manifest? Sunday-me is an unhinged stranger.",
+          "comment_bait": "Tag your Sunday-self and tell them to calm down."
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "theme": "The “Too Real” Grand Finale",
+      "trend_signal": "Ultimate Relatability Audit & Self-Exposing",
+      "videos": [
+        {
+          "id": "30A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Things We All Pretend We Don't Do",
+          "hook": "Opening the fridge 6 times hoping new food spawned, talking to yourself in hypothetical arguments.",
+          "punchline": "We are all weird in the exact same specific ways.",
+          "comment_bait": "How many of these are you guilty of?"
+        },
+        {
+          "id": "30B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Most Relatable Human Behaviors",
+          "hook": "Checking your phone to see what time it is, and immediately having to check again because you didn't look at the time.",
+          "punchline": "Human operating system glitch detected across all units.",
+          "comment_bait": "What is your most embarrassing unconscious habit?"
+        },
+        {
+          "id": "30C",
+          "slot": "evening",
+          "type": "C",
+          "title": "If You Do 5 of These, You're Normal",
+          "hook": "Re-reading your own message 10 times after sending it, walking into a room and standing there lost.",
+          "punchline": "Congratulations. You are officially, painfully, Too Real.",
+          "comment_bait": "Congratulations: you scored 5/5. Welcome to the club."
+        }
+      ]
+    }
+  ]
+}

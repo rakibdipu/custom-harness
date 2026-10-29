@@ -1,0 +1,284 @@
+{
+  "account_id": "psychology_mindset",
+  "channel_name": "MindEdge",
+  "total_days": 30,
+  "videos_per_day": 3,
+  "total_videos": 90,
+  "structure": {
+    "morning": {"time": "09:00", "type": "A", "theme": "Curiosity / Surprising Psychology (WHAT?)"},
+    "afternoon": {"time": "13:00", "type": "B", "theme": "Relatable Behavior (WHY?)"},
+    "evening": {"time": "19:00", "type": "C", "theme": "Deeper Insight / Practical Action (HOW?)"}
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "AI & Human Connection",
+      "videos": [
+        {"id": "01A", "slot": "morning", "title": "What Happens When AI Becomes Your Friend?", "type": "A"},
+        {"id": "01B", "slot": "afternoon", "title": "Why Talking to AI Feels So Easy", "type": "B"},
+        {"id": "01C", "slot": "evening", "title": "Could AI Make You More Lonely?", "type": "C"}
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "AI & Your Brain",
+      "videos": [
+        {"id": "02A", "slot": "morning", "title": "Is AI Making You Think Less?", "type": "A"},
+        {"id": "02B", "slot": "afternoon", "title": "The Hidden Cost of Asking AI Everything", "type": "B"},
+        {"id": "02C", "slot": "evening", "title": "The Smartest Way to Use AI Without Losing Your Brain", "type": "C"}
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "AI Validation",
+      "videos": [
+        {"id": "03A", "slot": "morning", "title": "Why AI Always Seems to Understand You", "type": "A"},
+        {"id": "03B", "slot": "afternoon", "title": "The Dangerous Side of \"You're Right\"", "type": "B"},
+        {"id": "03C", "slot": "evening", "title": "Ask AI This One Question Before Trusting It", "type": "C"}
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Digital Detox",
+      "videos": [
+        {"id": "04A", "slot": "morning", "title": "Why Everyone Suddenly Wants to Quit Their Phone", "type": "A"},
+        {"id": "04B", "slot": "afternoon", "title": "Your Phone Might Be Your Escape From Yourself", "type": "B"},
+        {"id": "04C", "slot": "evening", "title": "Try This 30-Minute Digital Reset", "type": "C"}
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "#LOCKEDIN",
+      "videos": [
+        {"id": "05A", "slot": "morning", "title": "Why Everyone Is Saying \"Lock In\"", "type": "A"},
+        {"id": "05B", "slot": "afternoon", "title": "The Psychology Behind the Lock-In Mindset", "type": "B"},
+        {"id": "05C", "slot": "evening", "title": "How to Actually Lock In Without Motivation", "type": "C"}
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Attention",
+      "videos": [
+        {"id": "06A", "slot": "morning", "title": "Your Attention Is Being Auctioned Every Second", "type": "A"},
+        {"id": "06B", "slot": "afternoon", "title": "Why You Can't Focus Anymore", "type": "B"},
+        {"id": "06C", "slot": "evening", "title": "The 25-Minute Attention Challenge", "type": "C"}
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Endless Scrolling",
+      "videos": [
+        {"id": "07A", "slot": "morning", "title": "Why You Keep Scrolling Even When You're Bored", "type": "A"},
+        {"id": "07B", "slot": "afternoon", "title": "The \"One More Video\" Trap", "type": "B"},
+        {"id": "07C", "slot": "evening", "title": "Why Endless Feeds Are So Hard to Stop", "type": "C"}
+      ]
+    },
+    {
+      "day": 8,
+      "theme": "Loneliness",
+      "videos": [
+        {"id": "08A", "slot": "morning", "title": "Why You Can Feel Lonely in a Crowded Room", "type": "A"},
+        {"id": "08B", "slot": "afternoon", "title": "Why You Scroll When You're Lonely", "type": "B"},
+        {"id": "08C", "slot": "evening", "title": "The Difference Between Being Alone and Being Lonely", "type": "C"}
+      ]
+    },
+    {
+      "day": 9,
+      "theme": "Social Media",
+      "videos": [
+        {"id": "09A", "slot": "morning", "title": "Social Media Doesn't Always Make You Social", "type": "A"},
+        {"id": "09B", "slot": "afternoon", "title": "Why Watching People Can Make You Feel Left Out", "type": "B"},
+        {"id": "09C", "slot": "evening", "title": "Are You Consuming Connection Instead of Having It?", "type": "C"}
+      ]
+    },
+    {
+      "day": 10,
+      "theme": "Comparison",
+      "videos": [
+        {"id": "10A", "slot": "morning", "title": "You're Comparing Your Life to Someone's Highlight Reel", "type": "A"},
+        {"id": "10B", "slot": "afternoon", "title": "Why Other People's Success Feels Personal", "type": "B"},
+        {"id": "10C", "slot": "evening", "title": "How to Stop Using Other People as Your Scoreboard", "type": "C"}
+      ]
+    },
+    {
+      "day": 11,
+      "theme": "Sleep",
+      "videos": [
+        {"id": "11A", "slot": "morning", "title": "Why Your Brain Gets Loud at 2 AM", "type": "A"},
+        {"id": "11B", "slot": "afternoon", "title": "Why One Bad Night Feels Like a Disaster", "type": "B"},
+        {"id": "11C", "slot": "evening", "title": "Stop Trying to Have Perfect Sleep", "type": "C"}
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "Phone & Sleep",
+      "videos": [
+        {"id": "12A", "slot": "morning", "title": "Why \"One More Video\" Ruins Your Bedtime", "type": "A"},
+        {"id": "12B", "slot": "afternoon", "title": "The Psychology of Checking Your Phone in Bed", "type": "B"},
+        {"id": "12C", "slot": "evening", "title": "Your Bed Shouldn't Be an Entertainment Center", "type": "C"}
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "Overthinking",
+      "videos": [
+        {"id": "13A", "slot": "morning", "title": "Why Your Brain Turns One Message Into a Movie", "type": "A"},
+        {"id": "13B", "slot": "afternoon", "title": "The Difference Between Thinking and Overthinking", "type": "B"},
+        {"id": "13C", "slot": "evening", "title": "What to Ask Yourself When Your Brain Won't Stop", "type": "C"}
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "Rejection",
+      "videos": [
+        {"id": "14A", "slot": "morning", "title": "Why \"Okay\" Can Feel Like Rejection", "type": "A"},
+        {"id": "14B", "slot": "afternoon", "title": "Why a Late Reply Can Trigger Your Brain", "type": "B"},
+        {"id": "14C", "slot": "evening", "title": "Fact vs Story: The Best Anti-Overthinking Trick", "type": "C"}
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "Attachment",
+      "videos": [
+        {"id": "15A", "slot": "morning", "title": "Why Some People Pull Away When You Get Close", "type": "A"},
+        {"id": "15B", "slot": "afternoon", "title": "Why You Chase People Who Give You Less Attention", "type": "B"},
+        {"id": "15C", "slot": "evening", "title": "Attachment Doesn't Mean You Can Diagnose Someone", "type": "C"}
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "Relationships",
+      "videos": [
+        {"id": "16A", "slot": "morning", "title": "Why Being Understood Feels So Powerful", "type": "A"},
+        {"id": "16B", "slot": "afternoon", "title": "Why We Want People Who Don't Want Us", "type": "B"},
+        {"id": "16C", "slot": "evening", "title": "The Difference Between Attention and Intimacy", "type": "C"}
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "Closure",
+      "videos": [
+        {"id": "17A", "slot": "morning", "title": "Why Your Brain Hates Unfinished Relationships", "type": "A"},
+        {"id": "17B", "slot": "afternoon", "title": "Why You Keep Replaying the Last Conversation", "type": "B"},
+        {"id": "17C", "slot": "evening", "title": "You May Never Get the Closure You Want", "type": "C"}
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "Validation",
+      "videos": [
+        {"id": "18A", "slot": "morning", "title": "Why Validation Feels Like Love", "type": "A"},
+        {"id": "18B", "slot": "afternoon", "title": "Why You Keep Asking \"Am I Okay?\"", "type": "B"},
+        {"id": "18C", "slot": "evening", "title": "Being Understood Isn't the Same as Being Agreed With", "type": "C"}
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "Parasocial Relationships",
+      "videos": [
+        {"id": "19A", "slot": "morning", "title": "Why You Feel Like You Know a Stranger Online", "type": "A"},
+        {"id": "19B", "slot": "afternoon", "title": "How Creators Become Part of Your Daily Life", "type": "B"},
+        {"id": "19C", "slot": "evening", "title": "When Following Someone Becomes Emotional Attachment", "type": "C"}
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "Curiosity",
+      "videos": [
+        {"id": "20A", "slot": "morning", "title": "Why Curiosity Is Taking Over Social Media", "type": "A"},
+        {"id": "20B", "slot": "afternoon", "title": "The Algorithm Can Start With One Question", "type": "B"},
+        {"id": "20C", "slot": "evening", "title": "Follow Your Curiosity Instead of Your Feed", "type": "C"}
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "\"Touch Grass\"",
+      "videos": [
+        {"id": "21A", "slot": "morning", "title": "Why \"Touch Grass\" Became a Real Trend", "type": "A"},
+        {"id": "21B", "slot": "afternoon", "title": "Your Brain Needs Offline Experiences", "type": "B"},
+        {"id": "21C", "slot": "evening", "title": "Do One Thing Today That Can't Be Posted", "type": "C"}
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "Real Life vs Digital Life",
+      "videos": [
+        {"id": "22A", "slot": "morning", "title": "Why Real Life Feels Boring After Too Much Scrolling", "type": "A"},
+        {"id": "22B", "slot": "afternoon", "title": "Your Brain Doesn't Need More Stimulation", "type": "B"},
+        {"id": "22C", "slot": "evening", "title": "How to Make Offline Life Interesting Again", "type": "C"}
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "Motivation",
+      "videos": [
+        {"id": "23A", "slot": "morning", "title": "Motivation Is Not Your Problem", "type": "A"},
+        {"id": "23B", "slot": "afternoon", "title": "Why Tomorrow Always Feels Easier", "type": "B"},
+        {"id": "23C", "slot": "evening", "title": "Stop Waiting to Feel Ready", "type": "C"}
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "Procrastination",
+      "videos": [
+        {"id": "24A", "slot": "morning", "title": "Why You Procrastinate on Things You Actually Want", "type": "A"},
+        {"id": "24B", "slot": "afternoon", "title": "The Psychology of \"I'll Start Tomorrow\"", "type": "B"},
+        {"id": "24C", "slot": "evening", "title": "Make the First Step So Small You Can't Avoid It", "type": "C"}
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "Environment",
+      "videos": [
+        {"id": "25A", "slot": "morning", "title": "Your Environment Is Stronger Than Motivation", "type": "A"},
+        {"id": "25B", "slot": "afternoon", "title": "Why Your Phone Wins When It's Beside You", "type": "B"},
+        {"id": "25C", "slot": "evening", "title": "Change Your Environment, Not Your Personality", "type": "C"}
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "Small Wins",
+      "videos": [
+        {"id": "26A", "slot": "morning", "title": "Why Tiny Wins Change How You See Yourself", "type": "A"},
+        {"id": "26B", "slot": "afternoon", "title": "Your Brain Needs Evidence, Not Motivation", "type": "B"},
+        {"id": "26C", "slot": "evening", "title": "The 5-Minute Rule for Starting Anything", "type": "C"}
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "Identity",
+      "videos": [
+        {"id": "27A", "slot": "morning", "title": "Your Brain Believes the Story You Repeat", "type": "A"},
+        {"id": "27B", "slot": "afternoon", "title": "Why Saying \"I'm Lazy\" Can Become a Trap", "type": "B"},
+        {"id": "27C", "slot": "evening", "title": "Build Identity Through Small Promises", "type": "C"}
+      ]
+    },
+    {
+      "day": 28,
+      "theme": "Social Anxiety",
+      "videos": [
+        {"id": "28A", "slot": "morning", "title": "Everyone Is Not Thinking About You", "type": "A"},
+        {"id": "28B", "slot": "afternoon", "title": "Why You Replay Social Mistakes", "type": "B"},
+        {"id": "28C", "slot": "evening", "title": "The Spotlight Effect Explained", "type": "C"}
+      ]
+    },
+    {
+      "day": 29,
+      "theme": "Modern Mental Overload",
+      "videos": [
+        {"id": "29A", "slot": "morning", "title": "Your Brain Wasn't Built for This Much Information", "type": "A"},
+        {"id": "29B", "slot": "afternoon", "title": "Why Constant Notifications Make You Feel Tired", "type": "B"},
+        {"id": "29C", "slot": "evening", "title": "The Information Diet You Actually Need", "type": "C"}
+      ]
+    },
+    {
+      "day": 30,
+      "theme": "Attention Reset",
+      "videos": [
+        {"id": "30A", "slot": "morning", "title": "Your Attention Is Your Real Currency", "type": "A"},
+        {"id": "30B", "slot": "afternoon", "title": "What Gets Your Attention Gets Your Life", "type": "B"},
+        {"id": "30C", "slot": "evening", "title": "30 Days Later: Take Your Attention Back", "type": "C"}
+      ]
+    }
+  ]
+}

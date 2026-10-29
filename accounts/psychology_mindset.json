@@ -1,0 +1,31 @@
+{
+  "id": "psychology_mindset",
+  "name": "MindEdge",
+  "tagline": "Unlock Your Mental Edge",
+  "niche": "Psychology & Mindset",
+  "content_types": ["short_reel", "long_video"],
+  "schedule": {
+    "short_reel": ["09:00", "13:00", "19:00"],
+    "long_video": ["11:00"]
+  },
+  "visual_style": "cinematic",
+  "subtitle_style": "hormozi_yellow",
+  "bgm_style": "ambient_cinematic",
+  "tts_voice": "en-US-GuyNeural",
+  "tts_rate": "+10%",
+  "color_primary": "#FFD700",
+  "color_bg": "#0A0A1A",
+  "color_text": "#FFFFFF",
+  "long_video_duration_min": 7,
+  "facebook": {
+    "page_id_env": "FB_PAGE_ID_PSYCHOLOGY",
+    "token_env": "FB_TOKEN_PSYCHOLOGY"
+  },
+  "youtube": {
+    "credentials_file": "yt_psychology.pickle",
+    "client_secrets": "client_secret.json"
+  },
+  "enabled": true,
+  "auto_reel_from_long": true
+}
+

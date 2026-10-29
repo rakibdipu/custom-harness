@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables & secrets (CRITICAL: Do not upload API keys or tokens)
+.env
+*.env
+!.env.example
+
+# Credentials & OAuth secrets
+*.pickle
+client_secret*.json
+
+# SQLite Database & State
+*.db
+*.sqlite
+*.sqlite3
+harness.db
+
+# Runner process IDs & Logs
+*.pid
+runner.pid
+logs/
+*.log
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output media files (generated reels, temp images, audio)
+output/
+temp/
+assets/broll/*
+!assets/broll/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db

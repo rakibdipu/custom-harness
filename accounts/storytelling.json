@@ -1,0 +1,30 @@
+{
+  "id": "storytelling",
+  "name": "StoryVault",
+  "tagline": "Stories That Stay With You",
+  "niche": "Short Stories & Life Lessons",
+  "content_types": ["short_reel", "storytelling_video"],
+  "schedule": {
+    "short_reel": ["08:00", "14:00", "21:00"],
+    "storytelling_video": ["16:00"]
+  },
+  "visual_style": "vintage_retro",
+  "subtitle_style": "sunset_lavender",
+  "bgm_style": "serene_nature",
+  "tts_voice": "en-US-EricNeural",
+  "tts_rate": "-5%",
+  "color_primary": "#E8A87C",
+  "color_bg": "#1A0A00",
+  "color_text": "#F5E6D3",
+  "long_video_duration_min": 8,
+  "facebook": {
+    "page_id_env": "FB_PAGE_ID_STORY",
+    "token_env": "FB_TOKEN_STORY"
+  },
+  "youtube": {
+    "credentials_file": "yt_story.pickle",
+    "client_secrets": "client_secret_story.json"
+  },
+  "enabled": true,
+  "auto_reel_from_long": true
+}

@@ -1,0 +1,1194 @@
+{
+  "account_id": "storytelling",
+  "channel_name": "StoryVault",
+  "tagline": "Stories That Stay With You",
+  "niche": "Historical & Life Lesson Stories",
+  "total_days": 30,
+  "videos_per_day": 3,
+  "total_videos": 90,
+  "style_config": {
+    "visual_style": "vintage_retro",
+    "subtitle_style": "sunset_lavender",
+    "bgm_style": "serene_nature",
+    "tts_voice": "en-US-EricNeural",
+    "tts_rate": "-5%",
+    "color_primary": "#E8A87C",
+    "color_bg": "#1A0A00",
+    "color_text": "#F5E6D3"
+  },
+  "content_formula": {
+    "slot_A": {
+      "slot": "morning",
+      "time": "08:00",
+      "type": "A",
+      "role": "WHAT HAPPENED? (Curiosity / Historical Mystery / Shock)"
+    },
+    "slot_B": {
+      "slot": "afternoon",
+      "time": "14:00",
+      "type": "B",
+      "role": "WHO LIVED IT? (Human Story / Character Study / Doomed Protagonist)"
+    },
+    "slot_C": {
+      "slot": "evening",
+      "time": "21:00",
+      "type": "C",
+      "role": "WHAT DOES IT MEAN? (Moral / Psychological Reflection / Modern Takeaway)"
+    }
+  },
+  "pillars": {
+    "historical_people": 15,
+    "disasters_and_survival": 9,
+    "royal_scandal_social": 9,
+    "ancient_civilizations": 12,
+    "medieval_history": 6,
+    "science_and_inventions": 9,
+    "forgotten_people": 6,
+    "objects_food_fashion": 9,
+    "mysteries": 6,
+    "pov_archival": 6,
+    "modern_nostalgia": 3
+  },
+  "days": [
+    {
+      "day": 1,
+      "theme": "Mount St. Helens & Harry Truman",
+      "pillar": "Disasters & Survival / Doomed Protagonist",
+      "trend_signal": "1980 Mount St. Helens doomed protagonist archival narrative",
+      "videos": [
+        {
+          "id": "01A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Everyone Was Told to Leave",
+          "hook": "Everyone was told to leave. One man refused.",
+          "narrative": "Setup: Mount St. Helens begins seismic activity. Authorities establish red zones and urge immediate evacuations. Harry Truman stays at his Spirit Lake lodge, dismissing warnings. Climax: May 18, 1980 cataclysmic eruption reshapes the mountain.",
+          "visual_prompt": "1980 Mount St. Helens landscape before eruption, quiet forest and snow-covered volcanic peak, isolated wooden cabin in foreground, muted vintage 35mm film photography, subtle grain, atmospheric morning mist, vertical 9:16",
+          "takeaway": "When nature issues a warning, human confidence is completely powerless."
+        },
+        {
+          "id": "01B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Man Who Wouldn't Leave",
+          "hook": "Imagine everyone around you leaving... and you deciding to stay.",
+          "narrative": "Character study of Harry Truman: his deep lifelong attachment to Spirit Lake, stubborn independence, local folk hero status, and the psychological refusal to abandon his home even as the earth trembled under his feet.",
+          "visual_prompt": "Solitary elderly 1980 American man standing outside a rustic lakeside wooden cabin watching a smoking volcanic peak, vintage archival documentary aesthetic, darkening amber sky, realistic moody lighting, vertical 9:16",
+          "takeaway": "We often mistake our comfort with a place for control over it."
+        },
+        {
+          "id": "01C",
+          "slot": "evening",
+          "type": "C",
+          "title": "When Courage Becomes Stubbornness",
+          "hook": "Confidence and stubbornness look identical until reality decides which one you had.",
+          "narrative": "Philosophical exploration: Courage is consciously accepting known risks for a higher purpose; stubbornness is refusing new contradictory evidence out of pride or denial.",
+          "visual_prompt": "Muted cinematic split-sequence of archival vintage maps, warning signs with yellow tape, followed by an immense ash cloud towering into the stratosphere, vintage film grain texture, vertical 9:16",
+          "takeaway": "History doesn't always punish bad people; it simply shows what happens when reality is ignored."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "The Great Fire of London (1666)",
+      "pillar": "Disasters & Urban Transformation",
+      "trend_signal": "Atmospheric city disaster & architectural rebirth",
+      "videos": [
+        {
+          "id": "02A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Fire That Changed London",
+          "hook": "A tiny bakery fire became one of the most famous urban disasters in history.",
+          "narrative": "Pudding Lane, September 2, 1666. A small oven spark in Thomas Farriner's bakery, fueled by dry timber, strong easterly winds, and tightly packed wooden houses, consumes four-fifths of the medieval city.",
+          "visual_prompt": "17th-century medieval London street at night, narrow cobblestone alley with timber-framed overhanging houses, flickering orange flame glowing from a bakery window, cinematic historical reconstruction, vertical 9:16",
+          "takeaway": "A single neglected spark can dismantle centuries of crowded construction."
+        },
+        {
+          "id": "02B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What It Felt Like to Watch Your City Burn",
+          "hook": "People woke up thinking it was another ordinary morning. By nightfall, their entire world was ash.",
+          "narrative": "Human experience of the fire: Londoners dragging chests and carts to the River Thames, desperate boat rentals, buried cheese and wine diaries (Samuel Pepys), and the chaos of refugees fleeing into surrounding fields.",
+          "visual_prompt": "Londoners in 1666 period attire crowding the murky shores of River Thames at dusk, boats overloaded with wooden chests and belongings, sky ablaze with fiery red and thick smoke, historical painting aesthetic, vertical 9:16",
+          "takeaway": "In moments of sudden crisis, material wealth reduces to what you can carry with your hands."
+        },
+        {
+          "id": "02C",
+          "slot": "evening",
+          "type": "C",
+          "title": "How Disaster Can Redesign a City",
+          "hook": "Disasters don't just destroy. Sometimes they force an entire civilization to rebuild properly.",
+          "narrative": "Post-fire transformation: Christopher Wren's brick and stone regulations, wider streets, modern building codes, the birth of property insurance and modern firefighting services.",
+          "visual_prompt": "Cinematic transition from charcoal-black smoking ruins of 1666 London to architectural blueprints and newly erected stately red-brick and stone buildings under calm dawn sunlight, vertical 9:16",
+          "takeaway": "Tragedy often becomes the painful blueprint for safer, smarter institutions."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "The Titanic & Unchecked Confidence",
+      "pillar": "Disasters & Human Hubris",
+      "trend_signal": "Archival perspective & documented warning sequence",
+      "videos": [
+        {
+          "id": "03A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Warning Titanic Received",
+          "hook": "Before the iceberg, Titanic had already received six explicit ice warnings.",
+          "narrative": "Documented Marconi wireless telegram logs from the Mesaba and Californian detailing ice fields. Why warnings were filed away while personal passenger telegrams took priority in the radio room.",
+          "visual_prompt": "1912 vintage Marconi wireless telegraph room aboard a luxury ocean liner, glowing vacuum tubes, brass dials, morse code telegraph key, handwritten paper logs, moody vintage film lighting, vertical 9:16",
+          "takeaway": "Information alone cannot save you if the system isn't built to prioritize it."
+        },
+        {
+          "id": "03B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The People Who Didn't Know What Was Coming",
+          "hook": "Minutes before the strike, passengers were laughing, drinking tea, and discussing tomorrow in New York.",
+          "narrative": "Human contrast: First-class dining salons, third-class card games, deck strollers admiring the calm starlit Atlantic, oblivious to the freezing black water waiting beneath the hull.",
+          "visual_prompt": "Vintage 1912 Edwardian ocean liner grand saloon, passengers in elegant period dresses and tuxedos enjoying quiet tea and conversation, warm chandelier light, soft camera push, archival sepia texture, vertical 9:16",
+          "takeaway": "Unawareness makes the transition from ordinary life to historical tragedy feel instant."
+        },
+        {
+          "id": "03C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Titanic Became More Than a Shipwreck",
+          "hook": "Titanic wasn't just a shipwreck; it was the exact moment 20th-century confidence shattered.",
+          "narrative": "The cultural and safety legacy: SOLAS treaty, mandatory 24/7 radio watches, lifeboat laws for every soul aboard, and the end of the myth of 'unsinkable' human engineering.",
+          "visual_prompt": "Moody cinematic shot of vintage 1912 black-and-white newspaper headlines ('TITANIC SUNK'), transitioning to a deep dark blue silent ocean under vast cold stars, vertical 9:16",
+          "takeaway": "The moment you believe failure is impossible, you stop taking the steps to prevent it."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Elizabeth I: Imprisonment to Sovereign",
+      "pillar": "Royal History & Survival",
+      "trend_signal": "Early-life adversity vs coronation mythology",
+      "videos": [
+        {
+          "id": "04A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Prisoner Who Became Queen",
+          "hook": "Before becoming queen, Elizabeth spent time fearing she might never leave the Tower alive.",
+          "narrative": "1554: Accused of treason by her half-sister Queen Mary I. Elizabeth entering Traitors' Gate in the pouring rain, refusing to step into the mud, knowing her mother Anne Boleyn was beheaded within those very walls.",
+          "visual_prompt": "16th-century Tudor England, ominous stone fortress of Tower of London in heavy fog and rain, young woman in dark velvet Tudor gown stepping off a wooden barge, dramatic cinematic lighting, vertical 9:16",
+          "takeaway": "The greatest rulers often start not on thrones, but in positions of extreme vulnerability."
+        },
+        {
+          "id": "04B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Elizabeth I Wasn't Supposed to Have an Easy Crown",
+          "hook": "Every advisor told her what to do, who to marry, and how to survive. She chose silence.",
+          "narrative": "The psychological discipline of young Elizabeth: mastering ambiguous answers, avoiding fatal religious alliances, and learning that in Tudor politics, speaking too quickly was a death sentence.",
+          "visual_prompt": "Young Tudor noblewoman sitting beside an arched stone window with candlelit parchment, thoughtful intense gaze, rich embroidery, chiaroscuro lighting, vintage historical oil painting look, vertical 9:16",
+          "takeaway": "Restraint and strategic silence are often more powerful than loud declarations."
+        },
+        {
+          "id": "04C",
+          "slot": "evening",
+          "type": "C",
+          "title": "How Survival Became Political Skill",
+          "hook": "Sometimes historical power comes after years of learning how dangerous power actually is.",
+          "narrative": "Elizabeth's 44-year reign analyzed: Why her early trauma made her cautious, diplomatic, and uniquely resilient compared to monarchic contemporaries.",
+          "visual_prompt": "Cinematic visual transition from heavy iron prison cell bars to the golden, jewel-encrusted coronation portrait of Queen Elizabeth I, majestic royal atmosphere, vertical 9:16",
+          "takeaway": "Hardship doesn't just test your character; it teaches you how systems actually operate."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "Marie Antoinette: Myth vs Propaganda",
+      "pillar": "Royal Scandal & Social History",
+      "trend_signal": "Historical tea, gossip, and myth debunking",
+      "videos": [
+        {
+          "id": "05A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Quote Marie Antoinette Probably Never Said",
+          "hook": "She never said 'Let them eat cake.' History's most famous quote was basically 18th-century fake news.",
+          "narrative": "The origin of 'Qu'ils mangent de la brioche' in Jean-Jacques Rousseau's writings years before she arrived in France, and how revolutionary pamphlets weaponized gossip against an Austrian foreigner.",
+          "visual_prompt": "18th-century Versailles royal dining table adorned with porcelain and pastries, overlaid with rough printed French revolutionary pamphlets and caricatures, muted vintage texture, vertical 9:16",
+          "takeaway": "A lie repeated during a revolution becomes an eternal historical fact in the public mind."
+        },
+        {
+          "id": "05B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Young Woman Who Became a Political Symbol",
+          "hook": "At fourteen, she was sent to a foreign palace where every single moment was watched by strangers.",
+          "narrative": "Human reality of Marie Antoinette: Shipped from Vienna at age 14, stripped at the border, surrounded by rigid court etiquette, isolated in Versailles, and scapegoated for national debt caused by foreign wars.",
+          "visual_prompt": "Young 18th-century Austrian princess in a vast, cold gilded hallway of Versailles, surrounded by rigid courtiers watching her, lonely and overwhelmed expression, soft cinematic pastel tones, vertical 9:16",
+          "takeaway": "When public anger boils, society always looks for a single face to bear all the blame."
+        },
+        {
+          "id": "05C",
+          "slot": "evening",
+          "type": "C",
+          "title": "How a Reputation Can Become More Powerful Than Reality",
+          "hook": "Once people decide to hate you, your actual actions stop mattering completely.",
+          "narrative": "The Affair of the Diamond Necklace and how anti-monarchy propagandists turned an innocent Queen into 'Madame Déficit', proving public perception overrides documented facts.",
+          "visual_prompt": "Glittering diamond necklace gleaming on dark velvet, fading slowly into turbulent Parisian street protests and revolutionary shadows, archival film aesthetic, vertical 9:16",
+          "takeaway": "In politics and life, public perception will always defeat reality if left undefended."
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Ancient Egypt: Everyday Life & Eternity",
+      "pillar": "Ancient Civilizations",
+      "trend_signal": "Niche daily life & ordinary workers over textbook facts",
+      "videos": [
+        {
+          "id": "06A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Ancient Egypt Wasn't Just Pyramids",
+          "hook": "We think of pharaohs and gold, but ordinary Egyptians spent their days brewing beer and striking for garlic.",
+          "narrative": "Life in Deir el-Medina: The documented workers who built the Valley of the Kings, their legal disputes, paid sick leave, makeup routines, and the first recorded labor strike in 1159 BCE over delayed grain rations.",
+          "visual_prompt": "Sunlit ancient Egyptian artisan village along the Nile, sunbaked mudbrick homes, papyrus scrolls, limestone ostraca with hieratic script, warm dusty vintage cinematic look, vertical 9:16",
+          "takeaway": "Beneath monuments of gold and stone, every ancient society was powered by ordinary workers."
+        },
+        {
+          "id": "06B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What an Ordinary Egyptian Could Actually Do All Day",
+          "hook": "Imagine waking up along the Nile 3,500 years ago. Your day looks surprisingly familiar.",
+          "narrative": "A day in the life: Barley bread breakfast, Kohl eye protection against blinding glare and flies, contracts signed by both men and women with equal property rights, board games (Senet) at sunset.",
+          "visual_prompt": "Ancient Egyptian family sitting on a rooftop reed mat playing the board game Senet as the golden sun sets over the palm trees and Nile River, atmospheric historical reconstruction, vertical 9:16",
+          "takeaway": "Humans three thousand years ago experienced the exact same family joy, fatigue, and domestic warmth."
+        },
+        {
+          "id": "06C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Ancient Egyptians Thought So Much About Death",
+          "hook": "They weren't obsessed with dying. They were so in love with life that they wanted it to last forever.",
+          "narrative": "The concept of the Duat and the Field of Reeds (Aaru): The afterlife was envisioned not as a scary void, but as an idealized Egypt where your favorite pets, family, and fertile fields greeted you eternally.",
+          "visual_prompt": "Golden-lit papyrus painting of the Weighing of the Heart ceremony with Anubis and Ma'at's feather, gentle atmospheric candle flicker, ethereal historical artifact lighting, vertical 9:16",
+          "takeaway": "How a culture views death is always a direct reflection of what it treasures most in life."
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Ancient Rome: The Real Streets Behind the Empire",
+      "pillar": "Ancient Civilizations",
+      "trend_signal": "Subverting Roman Empire memes with raw social reality",
+      "videos": [
+        {
+          "id": "07A",
+          "slot": "morning",
+          "type": "A",
+          "title": "A Normal Day in Ancient Rome",
+          "hook": "Rome wasn't marble palaces. It was cramped, noisy, five-story apartment blocks smelling of grilled street meat.",
+          "narrative": "Life in an Insula (Roman apartment): No indoor plumbing, chamber pots tossed out windows, street vendors yelling at 6 AM, and why Romans spent all daylight hours in public squares, baths, and thermopolia.",
+          "visual_prompt": "Bustling cobblestone street in ancient Rome, multi-story insula apartments with laundry hanging, street vendor cooking sausages at a stone counter, authentic bustling crowd, vertical 9:16",
+          "takeaway": "Grand empires are built on the loud, chaotic, unsanitary bustle of ordinary street corners."
+        },
+        {
+          "id": "07B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Roman Job You Wouldn't Want",
+          "hook": "The most important industry in Rome relied on something you wash down the toilet every day.",
+          "narrative": "The Fullers (Fullones): Collecting public urine for ammonia to bleach and clean wool togas, stepping in vats all day, and Emperor Vespasian famously taxing public latrines ('Pecunia non olet' - money doesn't stink).",
+          "visual_prompt": "Ancient Roman fullery workshop, clay amphorae, workers treading wool cloth in stone vats, warm natural Mediterranean light, historical documentary reconstruction, vertical 9:16",
+          "takeaway": "Civilization has always depended on the hardest and least glamorous jobs."
+        },
+        {
+          "id": "07C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Rome Was More Than Soldiers",
+          "hook": "Rome didn't conquer the ancient world with swords alone. It conquered with roads, concrete, and legal contracts.",
+          "narrative": "The invisible infrastructure: Roman volcanic ash pozzolana concrete curing underwater, 50,000 miles of paved roads, standardized grain supply networks (Annona), and enforceable contracts.",
+          "visual_prompt": "Ancient Roman cobblestone Appian Way stretching straight toward the distant horizon at sunrise, stone mile markers, misty morning hills, cinematic vintage framing, vertical 9:16",
+          "takeaway": "True power lasts when you build systems that connect and sustain people, not just armies that subdue them."
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "theme": "Vikings: Myth vs Documented History",
+      "pillar": "Medieval History & Myth Debunking",
+      "trend_signal": "Historical accuracy vs pop-culture cinema tropes",
+      "videos": [
+        {
+          "id": "08A",
+          "slot": "morning",
+          "type": "A",
+          "title": "What Vikings Actually Looked Like",
+          "hook": "They had no horned helmets, rarely wore black leather, and were obsessed with personal grooming.",
+          "narrative": "Archival archaeology: Bone combs, ear spoons, tweezers found in graves; Viking men bleaching hair blonde, Saturday designated as 'Laugardagr' (bath day), and clean woolen tunics.",
+          "visual_prompt": "9th-century Norse settlement, Viking man in colorful woolen red and blue tunic, neatly braided beard, using a carved bone comb by a wooden longhouse, crisp morning light, vertical 9:16",
+          "takeaway": "Pop culture always exaggerates brutality while erasing everyday hygiene and humanity."
+        },
+        {
+          "id": "08B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What a Viking Could Do Before Going to War",
+          "hook": "Most Vikings weren't full-time warriors. They were farmers, traders, and master boatbuilders.",
+          "narrative": "The seasonal reality: Sowing barley and raising sheep in spring, trading silver and amber across the Baltic and Islamic worlds in summer, harvesting in autumn, and storytelling around longhouse fires in winter.",
+          "visual_prompt": "Viking wooden boatyard on the edge of a serene Norwegian fjord, master carpenter shaping oak planks with iron adze, pine resin smoke rising, tranquil northern light, vertical 9:16",
+          "takeaway": "Warfare is often a seasonal footnote in a life dedicated primarily to trade and craft."
+        },
+        {
+          "id": "08C",
+          "slot": "evening",
+          "type": "C",
+          "title": "How Movies Changed Our Idea of Vikings",
+          "hook": "19th-century romantic opera created the horned helmet myth, and Hollywood turned farmers into monsters.",
+          "narrative": "How costume designer Carl Emil Doepler's 1876 Wagner opera costumes invented the horned helmet, and why modern media prefers savage caricatures over complex Scandinavian legal assemblies (Things).",
+          "visual_prompt": "19th-century Victorian opera costume sketch of a horned helmet fading into an authentic polished steel Gjermundbu spectacle helmet with no horns, archival display aesthetic, vertical 9:16",
+          "takeaway": "Never accept movie aesthetics as historical evidence without checking the archaeological record."
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "theme": "Samurai: The Reality Behind the Blade",
+      "pillar": "Human Story & Historical Discipline",
+      "trend_signal": "Everyday bureaucracy vs legendary warrior romanticism",
+      "videos": [
+        {
+          "id": "09A",
+          "slot": "morning",
+          "type": "A",
+          "title": "What Samurai Actually Did All Day",
+          "hook": "During 250 years of peace, samurai weren't dueling. They were bureaucrats managing paperwork and budgets.",
+          "narrative": "The Edo period (1603-1867): The Pax Tokugawa turned fierce warriors into administrative clerks, accountants, tax collectors, and calligraphy scholars, exchanging swords for ink brushes.",
+          "visual_prompt": "Edo-period Japanese samurai in formal kamishimo robes sitting at a low wooden desk, meticulously writing kanji with ink brush on rice paper scroll, tatami room, soft garden light, vertical 9:16",
+          "takeaway": "Even the fiercest warrior classes must adapt when peace replaces endless war."
+        },
+        {
+          "id": "09B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Samurai Life Nobody Shows in Movies",
+          "hook": "Stipends in rice, strict debt, and pawnshops: Many samurai struggled just to afford their status.",
+          "narrative": "Economic reality: Samurai were paid fixed koku (rice rations), which lost value as merchant commerce flourished. Many impoverished lower-rank samurai had to make paper umbrellas and lanterns at night to survive.",
+          "visual_prompt": "Modest wooden Edo-era room, samurai practicing calligraphy while handcrafting paper lanterns by candlelight, worn lacquer armor displayed in the corner, quiet atmospheric mood, vertical 9:16",
+          "takeaway": "Pride and hereditary status cannot shield you when economic systems shift beneath your feet."
+        },
+        {
+          "id": "09C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why the Samurai Became a Legend",
+          "hook": "Bushido as we know it wasn't codified during the wars; it was written after the wars had already ended.",
+          "narrative": "How Nitobe Inazo's 1899 book 'Bushido: The Soul of Japan' popularized the idealized warrior code globally, blending history with nostalgic philosophical romanticism.",
+          "visual_prompt": "Single antique Japanese katana resting on a silk display stand against a minimalist dark wood screen, cherry blossom petals drifting softly through golden beam of sunlight, vertical 9:16",
+          "takeaway": "Legends are often born not in the heat of battle, but in the nostalgic reflections of peacetime."
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "theme": "The Black Death (1347–1351)",
+      "pillar": "Disasters & Social Transformation",
+      "trend_signal": "Atmospheric medieval survival & labor revolution",
+      "videos": [
+        {
+          "id": "10A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Disease That Changed Europe",
+          "hook": "In 1347, twelve Genoese galleys docked in Sicily. The crews were dying, and Europe would never be the same.",
+          "narrative": "The arrival of Yersinia pestis via Silk Road trade routes. Spread across Mediterranean ports into Northern Europe, baffling medieval physicians and overwhelming cities within weeks.",
+          "visual_prompt": "14th-century medieval harbor at dawn, wooden merchant sailing ship with tattered sails drifting into port, eerie quiet fog, abandoned quayside, dark atmospheric painting style, vertical 9:16",
+          "takeaway": "Global interconnectedness carries invisible consequences alongside commerce."
+        },
+        {
+          "id": "10B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Imagine Living Through 1348",
+          "hook": "Villages went silent, church bells stopped ringing, and neighbors locked their doors in terror.",
+          "narrative": "Human experience recorded in Boccaccio's Decameron: Families abandoning sick relatives, people carrying herbs through streets, isolation in country villas, and the complete collapse of routine social trust.",
+          "visual_prompt": "Desolate 14th-century cobblestone medieval village square, closed wooden shutters, lone figure walking with hood pulled low carrying a bundle of dried lavender, soft melancholy light, vertical 9:16",
+          "takeaway": "When fear overwhelms knowledge, the fabric of human community tears easily."
+        },
+        {
+          "id": "10C",
+          "slot": "evening",
+          "type": "C",
+          "title": "What the Black Death Changed Forever",
+          "hook": "By devastating the population, the plague accidentally ended the medieval feudal system.",
+          "narrative": "Socioeconomic fallout: Severe labor shortages empowered surviving peasants to demand wages and freedom from serfdom, laying the groundwork for the modern working class and the Renaissance.",
+          "visual_prompt": "Medieval peasant standing in a lush green wheat field looking up at a distant crumbling stone castle at sunrise, cinematic lighting, symbol of social awakening, vertical 9:16",
+          "takeaway": "The greatest human catastrophes sometimes shatter rigid systems and enable historic progress."
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "theme": "The Plague Doctor: Icon vs History",
+      "pillar": "Medical History & Artifact Study",
+      "trend_signal": "Visual novelty, medical lore, and historical context",
+      "videos": [
+        {
+          "id": "11A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Why Did Plague Doctors Wear Those Masks?",
+          "hook": "The eerie bird beak wasn't meant to scare people. It was an early chemical filter.",
+          "narrative": "The 1619 design by Charles de Lorme: Waxed leather overcoat, glass eye openings, and a long curved beak stuffed with fragrant dried herbs (mint, camphor, rose petals) to block 'miasma' (bad air).",
+          "visual_prompt": "17th-century plague doctor in waxed black leather coat, wide-brimmed hat, and pointed beak mask holding a wooden cane, standing in a dim cobblestone alley at dusk, cinematic chiaroscuro, vertical 9:16",
+          "takeaway": "Even when medical theory is wrong, human ingenuity attempts protective barriers."
+        },
+        {
+          "id": "11B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What Medieval Medicine Actually Looked Like",
+          "hook": "Before bacteria were discovered, doctors treated your diseases by balancing your 'bodily humors.'",
+          "narrative": "Galenic humorism: Bloodletting, leeches, purging, astrology charts, and herbal theriac concoctions. Why medical treatments of the era were frequently more lethal than the illnesses themselves.",
+          "visual_prompt": "Vintage 16th-century apothecary workshop, glass vials, dried herbs hanging from wooden rafters, brass mortar and pestle, leather-bound anatomical books by candlelight, vertical 9:16",
+          "takeaway": "We can only act upon the best models of the universe we currently have."
+        },
+        {
+          "id": "11C",
+          "slot": "evening",
+          "type": "C",
+          "title": "The Famous Plague Doctor Image Isn't the Whole Story",
+          "hook": "The famous beak mask wasn't around during the 1348 Black Death; it was invented 300 years later.",
+          "narrative": "Clarifying chronology: 1348 medieval doctors wore simple cloth gowns; the iconic plague doctor outfit is a 17th-century baroque invention that modern culture mistakenly projects backward into the Middle Ages.",
+          "visual_prompt": "Split historical comparison: 14th-century physician in simple wool tunic with herbal cloth next to 17th-century Charles de Lorme beak mask engraving, museum archive aesthetic, vertical 9:16",
+          "takeaway": "Historical memory frequently compresses centuries into a single inaccurate visual meme."
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "Pompeii: The Frozen Morning (79 AD)",
+      "pillar": "Disasters & Archaeological Preservation",
+      "trend_signal": "The 'Last Normal Day' emotional storytelling format",
+      "videos": [
+        {
+          "id": "12A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Morning Pompeii Was Still Normal",
+          "hook": "Bakeries were taking warm loaves from ovens and politicians were painting election slogans on walls.",
+          "narrative": "August 24 (or October), 79 AD: The ordinary morning in Pompeii. Fresh bread baked, water flowing through lead pipes, wine served in taverns, completely unaware of Mount Vesuvius quietly preparing to erupt.",
+          "visual_prompt": "Sunlit bustling Roman market street in Pompeii, stone bakery with carbonized round loaves on counter, vibrant wall frescoes, peaceful blue sky over distant green Mount Vesuvius, vertical 9:16",
+          "takeaway": "Disaster never announces its arrival; it arrives in the middle of ordinary life."
+        },
+        {
+          "id": "12B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What People Were Doing Before the Eruption",
+          "hook": "Letters written by Pliny the Younger give us an eyewitness account of the mountain turning into an umbrella pine.",
+          "narrative": "Eyewitness history: Pliny describing the massive pine-tree-shaped ash column rising over the Bay of Naples, his uncle Pliny the Elder sailing directly toward the volcano on a rescue mission with pillow helmets.",
+          "visual_prompt": "Ancient Roman galley rowing frantically across stormy bay waters under a massive towering dark umbrella-shaped volcanic ash cloud blotting out the sun, dramatic cinematic lighting, vertical 9:16",
+          "takeaway": "Curiosity and courage can drive people straight into danger while others flee."
+        },
+        {
+          "id": "12C",
+          "slot": "evening",
+          "type": "C",
+          "title": "What the Ash Preserved",
+          "hook": "The eruption destroyed a city in 24 hours, but preserved human daily life for two thousand years.",
+          "narrative": "Fiorelli's plaster casts capturing people shielding their faces, carbonized pet dogs, shopping lists, tavern graffiti ('Gaius was here'), transforming ancient Romans from statues into living humans.",
+          "visual_prompt": "Archaeological excavation in Pompeii, delicate brush uncovering a detailed mosaic floor and plaster cast silhouette under volcanic lapilli, golden afternoon sun, vertical 9:16",
+          "takeaway": "We are fleeting, but the traces of our daily humanity can outlast millennia."
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "Joan of Arc: The Peasant Who Changed a War",
+      "pillar": "Historical People & Courage",
+      "trend_signal": "Human-first historical storytelling & teenage conviction",
+      "videos": [
+        {
+          "id": "13A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Teenager Who Walked Into War",
+          "hook": "A seventeen-year-old illiterate peasant girl convinced a prince to give her an army.",
+          "narrative": "Domrémy to Chinon: Joan hearing voices, traveling 300 miles through enemy Burgundian territory disguised in male clothes, identifying the disguised Dauphin Charles VII in a crowded hall, and riding to the Siege of Orléans.",
+          "visual_prompt": "15th-century French medieval court, teenage girl in simple peasant woolen attire standing resolutely before the Dauphin seated on an ornate wooden throne, candlelit stone hall, vertical 9:16",
+          "takeaway": "Conviction and sheer moral clarity can cut through years of political paralysis."
+        },
+        {
+          "id": "13B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "How Joan of Arc Became a Symbol",
+          "hook": "She held a banner instead of a sword, yet she turned the tide of the Hundred Years' War.",
+          "narrative": "The Siege of Orléans (1429): Raising French morale in nine days, taking an arrow to the shoulder and returning to the assault, lifting the siege and escorting the King to Reims for his coronation.",
+          "visual_prompt": "Young woman in polished steel plate armor holding a white embroidered banner on horseback outside a wooden siege fortress, smoke and dramatic sunset sky, painterly cinematic aesthetic, vertical 9:16",
+          "takeaway": "Belief and morale often determine the outcome of battles long before weapons clash."
+        },
+        {
+          "id": "13C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Her Story Survived for Centuries",
+          "hook": "The trial that condemned her to the stake left behind word-for-word transcripts that vindicated her.",
+          "narrative": "The Rouen trial of 1431: Her sharp, fearless answers to hostile theological interrogators ('If I am not in God's grace, may He put me there'), her tragic execution, and her official exoneration 25 years later.",
+          "visual_prompt": "Dim stone inquisitorial courtroom, handwritten Latin parchment trial transcript under flickering candlelight, fading into a glowing stained-glass cathedral window, vertical 9:16",
+          "takeaway": "Truth documented in official records eventually outlives the court that tried to bury it."
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "Leonardo da Vinci: The Mind of Observation",
+      "pillar": "Science & Historical Curiosity",
+      "trend_signal": "Historical curiosity bridged to modern creator culture",
+      "videos": [
+        {
+          "id": "14A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Leonardo Wasn't Just a Painter",
+          "hook": "He painted fewer than twenty paintings, but filled seven thousand pages with inventions that anticipated the future.",
+          "narrative": "Leonardo the polymath: Hydraulic pumps, flying machines, dissecting human corpses by night to understand muscle dynamics, designing siege bridges, and investigating why the sky is blue.",
+          "visual_prompt": "Renaissance Florence studio, Leonardo da Vinci looking over wooden mechanical gear models, anatomical sketches, and painting easels, warm golden candlelight, atmospheric dust motes, vertical 9:16",
+          "takeaway": "Mastery doesn't come from narrow specialization, but from boundless curiosity about everything."
+        },
+        {
+          "id": "14B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Inside Leonardo's Notebook",
+          "hook": "He wrote his notes backward in mirror script and made to-do lists that included 'describe the tongue of a woodpecker.'",
+          "narrative": "The Codex Arundel and Codex Atlanticus: Mirror writing from right to left, sketches of vortexes in water, heart valve blood flow diagrams verified as accurate by 21st-century surgeons.",
+          "visual_prompt": "Extreme close-up of aged Renaissance parchment covered in Leonardo's mirror-script handwriting, sepia ink sketches of avian wings and anatomical heart chambers, vertical 9:16",
+          "takeaway": "The quality of your mind is measured by the questions you are willing to ask."
+        },
+        {
+          "id": "14C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why He Couldn't Stop Asking Questions",
+          "hook": "Leonardo's greatest strength was that he never lost the child-like habit of wondering 'why.'",
+          "narrative": "The philosophy of Sfumato and Curiosità: Observing shadows with soft edges, failing to finish projects because the joy was in discovering the principle rather than delivering the product.",
+          "visual_prompt": "Cinematic visual transition from Leonardo's dynamic sketches of bird wings to a modern aircraft soaring across a twilight sunset sky, serene contemplative aesthetic, vertical 9:16",
+          "takeaway": "Curiosity is not a luxury; it is the fundamental engine of human progress."
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "Tesla vs Edison: The War of the Currents",
+      "pillar": "Science & Inventions / Business War",
+      "trend_signal": "Nuanced historical reality vs internet meme oversimplification",
+      "videos": [
+        {
+          "id": "15A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Tesla vs Edison Wasn't the Meme You Think",
+          "hook": "It wasn't a lone genius fighting an evil villain; it was two completely different philosophies of innovation.",
+          "narrative": "AC (Alternating Current) vs DC (Direct Current): Edison's low-voltage localized DC grids versus Tesla and George Westinghouse's high-voltage transformable AC systems capable of transmitting power for miles.",
+          "visual_prompt": "Late 19th-century electrical laboratory with glowing Edison carbon-filament incandescent bulbs next to Tesla's sparking high-frequency induction coils, vintage sepia industrial look, vertical 9:16",
+          "takeaway": "Great technological shifts are never just about science; they are about distribution economics."
+        },
+        {
+          "id": "15B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Race to Control Electricity",
+          "hook": "The 1893 Chicago World's Fair was the high-stakes showdown that illuminated the modern world.",
+          "narrative": "Westinghouse and Tesla underbidding General Electric to light the 'White City' with 250,000 AC lamps, proving AC's safety and reliability, leading to the Niagara Falls hydroelectric plant.",
+          "visual_prompt": "The 1893 Chicago World's Fair illuminated at night, neoclassical grand pavilions glowing with hundreds of thousands of electric bulbs reflected in lagoon waters, vintage archival look, vertical 9:16",
+          "takeaway": "Demonstrating reliability on a grand stage wins over public doubt faster than any theoretical argument."
+        },
+        {
+          "id": "15C",
+          "slot": "evening",
+          "type": "C",
+          "title": "When Innovation Became a Business War",
+          "hook": "Inventing something brilliant and owning the rights to it are two completely different skills.",
+          "narrative": "Tesla ripping up his Westinghouse royalty contract to save his partner's company, dying impoverished in the New Yorker Hotel while Edison built an industrial empire with patent lawyers.",
+          "visual_prompt": "An elderly Nikola Tesla looking pensively out of a high hotel window over the illuminated 1940s New York City skyline, glowing amber streetlights, atmospheric vintage tone, vertical 9:16",
+          "takeaway": "Without commercial acumen and protection, brilliant minds often get left behind by their own creations."
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "Alan Turing: The Code That Saved Millions",
+      "pillar": "Science & Human Tragedy",
+      "trend_signal": "Technology, wartime secrecy, and personal redemption",
+      "videos": [
+        {
+          "id": "16A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Machine That Helped Crack the Code",
+          "hook": "In a secret British country house, a mathematician built an electro-mechanical brain to defeat Enigma.",
+          "narrative": "Bletchley Park, Hut 8: The German Enigma machine with 158 quintillion daily combinations. Alan Turing and Gordon Welchman designing the 'Bombe' machine to rapidly test cribs and decrypt naval communications.",
+          "visual_prompt": "1940s Bletchley Park wooden hut, giant electro-mechanical Bombe machine with spinning red-and-gold dials, clicking relays, paper punch tapes, moody wartime atmosphere, vertical 9:16",
+          "takeaway": "When problems exceed human cognitive speed, we must build machines to think alongside us."
+        },
+        {
+          "id": "16B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Man Behind the Machine",
+          "hook": "He ran marathons with a gas mask, chained his tea mug to the radiator, and saved fourteen million lives.",
+          "narrative": "Turing's unique personality: Eccentric, brilliant, socially honest, running world-class marathon times between decoding shifts, and conceptualizing the universal computing machine in 1936.",
+          "visual_prompt": "Young 1940s mathematician in tweed jacket running along a misty English country road beside vintage telegraph poles, quiet determined expression, archival 1940s grain, vertical 9:16",
+          "takeaway": "The people who do not fit societal moulds are often the only ones capable of solving impossible puzzles."
+        },
+        {
+          "id": "16C",
+          "slot": "evening",
+          "type": "C",
+          "title": "What Happened After the War?",
+          "hook": "The government he saved kept his work a top secret, and prosecuted him for who he loved.",
+          "narrative": "Post-war tragedy: The Official Secrets Act silencing his triumphs, 1952 conviction for homosexuality, chemical castration, his tragic death in 1954, and the 2013 royal pardon leading to his portrait on the £50 note.",
+          "visual_prompt": "Vintage British 50-pound banknote bearing Alan Turing's portrait resting beside an apple and binary code reels, gentle respectful lighting, vertical 9:16",
+          "takeaway": "Societies often fail to appreciate their greatest protectors until decades after they are gone."
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "Accidental Discoveries That Changed the World",
+      "pillar": "Science & Inventions",
+      "trend_signal": "Curiosity hook: 'He wasn't trying to invent this'",
+      "videos": [
+        {
+          "id": "17A",
+          "slot": "morning",
+          "type": "A",
+          "title": "He Was Looking for Something Else",
+          "hook": "He left a dirty petri dish by an open window and went on vacation. It saved 200 million lives.",
+          "narrative": "Alexander Fleming, September 1928: Returning to St. Mary's Hospital to find Penicillium notatum mold killing Staphylococcus bacteria, recognizing what other bacteriologists tossed in the trash.",
+          "visual_prompt": "1920s vintage London laboratory desk, glass petri dish with bluish-green fuzzy mold surrounded by a clear ring of killed bacteria, microscope and brass instruments in soft morning window light, vertical 9:16",
+          "takeaway": "Accidents happen to everyone; discoveries happen only to those prepared to notice them."
+        },
+        {
+          "id": "17B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Mistake That Became a Discovery",
+          "hook": "A radar engineer noticed a chocolate candy bar melting in his pocket while standing next to a magnetron.",
+          "narrative": "Percy Spencer in 1945: Testing active radar vacuum tubes, noticing the melted peanut bar, trying popcorn kernels next, and filing the patent for the first commercial microwave oven (the Radarange).",
+          "visual_prompt": "1940s industrial laboratory engineer in white shirt and tie looking down at a melted chocolate wrapper next to a humming metal cavity magnetron, vintage film look, vertical 9:16",
+          "takeaway": "Breakthroughs often arrive in the form of unexpected anomalies during routine work."
+        },
+        {
+          "id": "17C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Failure Sometimes Creates History",
+          "hook": "Trying to make super-strong glue gave us Post-it notes. Trying to make malaria medicine gave us synthetic dye.",
+          "narrative": "Spencer Silver's reusable weak adhesive (3M Post-It) and William Perkin's synthetic mauve dye: Why failing at your primary goal can yield a secondary miracle if you don't discard the result.",
+          "visual_prompt": "Vintage laboratory table showing sticky notes, colorful dye flasks, and discarded notebooks, fading into modern office and design tools, warm vintage aesthetic, vertical 9:16",
+          "takeaway": "Failure is rarely the end of the road; it is usually just an unexpected turn toward something new."
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "Historical Letters: Words That Moved Empires",
+      "pillar": "Human Story & Historical Documents",
+      "trend_signal": "Atmospheric archival parchment & intimate historical voice",
+      "videos": [
+        {
+          "id": "18A",
+          "slot": "morning",
+          "type": "A",
+          "title": "A Letter That Changed Everything",
+          "hook": "In 1917, a single intercepted telegram pushed the United States into the First World War.",
+          "narrative": "The Zimmermann Telegram: German Foreign Secretary proposing a military alliance to Mexico. Cryptographers in British Room 40 decrypting the message, changing American public opinion overnight.",
+          "visual_prompt": "1917 encrypted diplomatic telegram document with numerical code blocks, brass magnifying glass, fountain pen, top-secret stamped folder on wooden desk, moody lighting, vertical 9:16",
+          "takeaway": "A few sentences whispered across telegraph wires can alter the geopolitical fate of nations."
+        },
+        {
+          "id": "18B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What People Wrote Before Texting",
+          "hook": "Roman soldiers garrisoned in cold northern Britain wrote letters asking their families to send wool socks.",
+          "narrative": "The Vindolanda Tablets: Thin wooden leaves excavated near Hadrian's Wall containing birthday party invitations from Claudia Severa, requests for underwear, and complaints about unruly British weather.",
+          "visual_prompt": "Fragile thin Roman wooden postcard tablet with faded cursive ink writing, displayed on dark museum velvet with gentle directional light, archival artifact texture, vertical 9:16",
+          "takeaway": "Two thousand years ago, human correspondence was fueled by the exact same daily needs and affection."
+        },
+        {
+          "id": "18C",
+          "slot": "evening",
+          "type": "C",
+          "title": "The Problem With Reading History Through One Letter",
+          "hook": "Historical letters don't tell the whole truth; they tell what one person wanted someone else to believe.",
+          "narrative": "The historiographical principle: Letters contain biases, diplomatic flattery, coded omissions, and deliberate deception. True history requires cross-referencing letters with ledgers, archaeology, and diaries.",
+          "visual_prompt": "Stack of aged historical parchment letters with red wax seals, candle flicker reflecting off magnifying glass and ink bottles, contemplative library setting, vertical 9:16",
+          "takeaway": "Never mistake a single person's testimony for the complete, objective historical record."
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "Lost Cities & Forgotten Civilizations",
+      "pillar": "Ancient Civilizations & Exploration",
+      "trend_signal": "Archival archaeology, LiDAR discovery, and grounded mystery",
+      "videos": [
+        {
+          "id": "19A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The City That Disappeared",
+          "hook": "A thriving metropolis of 40,000 people vanished into the Indus Valley sand without a single palace or monument to war.",
+          "narrative": "Mohenjo-daro and Harappa (2500 BCE): Standardized fired bricks, grid-like streets, covered drainage systems in every house, the Great Bath, and no evidence of standing armies or monarchies.",
+          "visual_prompt": "Ancient Indus Valley baked-brick streets of Mohenjo-daro at dawn, sophisticated covered drainage channels, quiet misty desert morning, cinematic historical reconstruction, vertical 9:16",
+          "takeaway": "Advanced civilizations can prioritize sanitation and civic equality over giant statues of tyrants."
+        },
+        {
+          "id": "19B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What Archaeologists Found Under the Jungle",
+          "hook": "LiDAR lasers pierced the dense Guatemalan rainforest and revealed 60,000 hidden Mayan structures.",
+          "narrative": "Modern archaeology: How airborne laser scanning exposed connected highways, raised agricultural canals, defensive fortresses, proving the Maya civilization numbered tens of millions, not isolated jungle tribes.",
+          "visual_prompt": "Lush emerald-green Amazon/Guatemalan jungle canopy, with subtle translucent glowing laser LiDAR grid lines revealing ancient stone pyramid outlines beneath the trees, vertical 9:16",
+          "takeaway": "The past is not gone; it is often just waiting for the right lens to be seen."
+        },
+        {
+          "id": "19C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Civilizations Disappear",
+          "hook": "Cities rarely collapse because of a single enemy attack. They collapse when climate and supply chains break.",
+          "narrative": "The Bronze Age Collapse and the shifting monsoon rains of the Indus Valley: Why resource depletion, prolonged droughts, and over-centralized trade routes are the true killers of great empires.",
+          "visual_prompt": "Weathered stone arches and carved columns standing alone in a vast desert landscape as winds blow sand across ancient carvings, majestic melancholic sunset, vertical 9:16",
+          "takeaway": "Civilizations endure only as long as they respect their environmental and economic foundations."
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "Historical Objects: The Stories Inside Artifacts",
+      "pillar": "Objects & Material Culture",
+      "trend_signal": "MuseumTok artifact close-ups with modern life bridges",
+      "videos": [
+        {
+          "id": "20A",
+          "slot": "morning",
+          "type": "A",
+          "title": "This Tiny Object Tells a Huge Story",
+          "hook": "This corroded bronze lump found in a 2,000-year-old shipwreck is the world's first analog computer.",
+          "narrative": "The Antikythera Mechanism (100 BCE): Thirty meshing bronze precision gears calculating planetary positions, lunar phases, and Olympic game cycles, exhibiting complexity not seen again until 14th-century clockwork.",
+          "visual_prompt": "Extreme macro close-up of the Antikythera Mechanism, oxidized green bronze gears with tiny Greek inscriptions under gentle museum spotlight, dark moody backdrop, vertical 9:16",
+          "takeaway": "Human technological genius peaked and reset multiple times throughout history."
+        },
+        {
+          "id": "20B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What This Object Says About Ordinary People",
+          "hook": "This 4,000-year-old clay tablet contains the world's oldest customer complaint.",
+          "narrative": "The Tablet of Ea-nasir (Ur, 1750 BCE): A merchant named Nanni writing in cuneiform complaining about substandard copper ingots and rude treatment of his servant, proving customer frustration is timeless.",
+          "visual_prompt": "A small Mesopotamian clay tablet inscribed with sharp cuneiform wedge markings, warm museum gallery lighting, subtle dust motes, archival historical artifact display, vertical 9:16",
+          "takeaway": "No matter how old the artifact, the emotional core of human interaction remains unchanged."
+        },
+        {
+          "id": "20C",
+          "slot": "evening",
+          "type": "C",
+          "title": "You Use Something Similar Every Day",
+          "hook": "The button on your shirt, the key in your pocket, and the fork on your plate each took centuries to be accepted.",
+          "narrative": "The history of common things: How buttons were originally ornamental status jewelry, forks were condemned by medieval Venetian clergy as 'excessive luxury', before becoming everyday essentials.",
+          "visual_prompt": "Vintage collage of ancient carved bone buttons, ornate medieval brass keys, and a modern dining table setting, smooth cinematic lighting transition, vertical 9:16",
+          "takeaway": "The ordinary objects surrounding you today are the triumphant survivors of centuries of trial."
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "Historical Food: What Feasts Built Empires",
+      "pillar": "Objects & Food History",
+      "trend_signal": "Sensory entry point to history & culinary discovery",
+      "videos": [
+        {
+          "id": "21A",
+          "slot": "morning",
+          "type": "A",
+          "title": "What People Actually Ate 500 Years Ago",
+          "hook": "Imagine sitting down for dinner in 1500. There were no potatoes in Ireland, no tomatoes in Italy, and no chili in India.",
+          "narrative": "The Columbian Exchange: How the transatlantic trade of 1492 introduced American crops (tomatoes, potatoes, maize, chocolate, chili) to Europe, Asia, and Africa, completely reinventing global cuisines.",
+          "visual_prompt": "16th-century rustic wooden kitchen table overflowing with root vegetables, dark bread, dried fish, clay pots, and pewter flagons, warm Renaissance lighting, vertical 9:16",
+          "takeaway": "What we consider 'traditional' culture is often the result of sudden global exchange."
+        },
+        {
+          "id": "21B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Weirdest Food People Thought Was Normal",
+          "hook": "Ancient Romans poured fermented fish guts on literally everything, including their desserts.",
+          "narrative": "Garum (Liquamen): The umami-rich fermented fish sauce manufactured in seaside Roman factories, aged for months in terracotta vats, traded across the Mediterranean as a prized culinary necessity.",
+          "visual_prompt": "Ancient Roman seaside terracotta production workshop, large stone vats, amphorae with painted labels, Mediterranean blue sea background under bright sun, vertical 9:16",
+          "takeaway": "Taste and disgust are entirely cultural conventions shaped by geography and time."
+        },
+        {
+          "id": "21C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Food That Changed History",
+          "hook": "Nations didn't fight wars for gold; they sailed around the world to control black pepper and nutmeg.",
+          "narrative": "The Spice Wars: The Dutch East India Company trading Manhattan to the British for the tiny nutmeg island of Run (Banda Islands), showing how spice preservation and flavor drove global colonization.",
+          "visual_prompt": "Piles of aromatic cinnamon quills, black peppercorns, and whole nutmegs on old burlap sacks in the wooden hold of a 17th-century merchant galleon, warm amber lighting, vertical 9:16",
+          "takeaway": "Human desires as simple as flavor have redrawn the entire political map of the planet."
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "Historical Fashion: Clothing as Power & Survival",
+      "pillar": "Objects & Fashion History",
+      "trend_signal": "Visual aesthetic & sumptuary law social history",
+      "videos": [
+        {
+          "id": "22A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Why People Dressed Like This",
+          "hook": "In Elizabethan England, wearing purple silk could literally get you thrown in prison.",
+          "narrative": "Sumptuary Laws: Medieval and Renaissance statutes strictly dictating what fabrics, furs, hat heights, and sleeve lengths each social class could legally wear to prevent wealthy merchants from dressing like aristocrats.",
+          "visual_prompt": "Rich 16th-century Tudor wardrobe room, heavy velvet gowns with gold thread embroidery, stiff lace ruffs on wooden mannequins, dramatic studio lighting, vertical 9:16",
+          "takeaway": "Throughout history, elites have always passed laws to keep social hierarchies visible."
+        },
+        {
+          "id": "22B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Clothes That Showed Your Social Class",
+          "hook": "Those gigantic 18th-century powdered wigs weren't just a trend; they hid syphilis scars and lice treatments.",
+          "narrative": "The Pouf and peruke wigs of Versailles: Scented powders, flour shortages, hair towers decorated with ship models, and how extreme aristocratic fashion directly fueled revolutionary outrage in Paris.",
+          "visual_prompt": "Elaborate 18th-century powdered white wig towering on a polished wooden stand, ornate ribbons and pearls, soft lavender and sepia tones, archival elegance, vertical 9:16",
+          "takeaway": "When the ruling class uses food supplies for hair cosmetic powder, revolution is never far behind."
+        },
+        {
+          "id": "22C",
+          "slot": "evening",
+          "type": "C",
+          "title": "When Fashion Became a Political Statement",
+          "hook": "During the French Revolution, wearing the wrong style of trousers could cost you your life.",
+          "narrative": "The Sans-Culottes: Revolutionary working-class men rejecting aristocratic knee-breeches for long striped trousers and red Phrygian caps (bonnet rouge) as an open badge of revolutionary loyalty.",
+          "visual_prompt": "French revolutionary tricolor cockade pin resting on coarse blue-and-white striped linen trousers, cobblestone background, dramatic moody street lighting, vertical 9:16",
+          "takeaway": "What you wear on your body has always been one of humanity's loudest political declarations."
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "The History of Medicine: From Darkness to Antiseptics",
+      "pillar": "Medical History & Transformation",
+      "trend_signal": "Historical transformation without graphic shock value",
+      "videos": [
+        {
+          "id": "23A",
+          "slot": "morning",
+          "type": "A",
+          "title": "What Surgery Looked Like Before Anesthesia",
+          "hook": "In 1840, the best surgeon in London was the one who could amputate a leg in under thirty seconds.",
+          "narrative": "Robert Liston and pre-anesthesia operating theaters: Speed as the only defense against patient shock, the invention of ether and chloroform in 1846-1847, and the revolutionary birth of painless surgery.",
+          "visual_prompt": "19th-century Victorian wooden surgical theater, antique brass instruments, glass ether inhaler flask on mahogany stand, soft morning sunlight through tall windows, vertical 9:16",
+          "takeaway": "Before pain could be cured, endurance was humanity's only medical option."
+        },
+        {
+          "id": "23B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Medical Idea That Everyone Believed",
+          "hook": "A doctor was laughed out of the medical community for suggesting physicians wash their hands between patients.",
+          "narrative": "Ignaz Semmelweis (Vienna, 1847): Discovering that handwashing with chlorinated lime solution reduced postpartum maternal mortality from 18% to 1%, and the tragic backlash from offended doctors.",
+          "visual_prompt": "1840s Vienna hospital ward, a doctor washing hands in a porcelain basin of water, quiet thoughtful gaze, sepia tint with vintage grain, vertical 9:16",
+          "takeaway": "The hardest barrier to scientific truth is rarely ignorance; it is professional ego."
+        },
+        {
+          "id": "23C",
+          "slot": "evening",
+          "type": "C",
+          "title": "How One Discovery Changed Medicine",
+          "hook": "Joseph Lister sprayed carbolic acid in an operating room and unlocked the modern sterile world.",
+          "narrative": "Lister's antiseptic surgery (1865): Applying Louis Pasteur's germ theory to wounds, introducing carbolic gauze, sterilized instruments, and clean gowns that transformed hospitals from death traps into places of healing.",
+          "visual_prompt": "Victorian hospital operating room, brass carbolic steam sprayer creating fine mist over clean surgical table, ray of sunlight piercing dust, vertical 9:16",
+          "takeaway": "Invisible enemies can only be defeated once we possess the humility to recognize them."
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "The Forgotten People Behind Famous Breakthroughs",
+      "pillar": "Forgotten People & Discovery",
+      "trend_signal": "Uncredited figures & historical restitution",
+      "videos": [
+        {
+          "id": "24A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Person Behind a Famous Discovery",
+          "hook": "She captured the photograph that revealed the secret of DNA, but others received the Nobel Prize.",
+          "narrative": "Rosalind Franklin and Photograph 51 (1952): Her X-ray diffraction expertise revealing the double-helix structure, Watson and Crick viewing her data without permission, and her posthumous recognition as a titan of science.",
+          "visual_prompt": "A darkened 1950s laboratory desk displaying X-ray diffraction 'Photograph 51' showing the distinct dark cross pattern of DNA helix, soft vintage glow, vertical 9:16",
+          "takeaway": "True contribution to human knowledge outlasts the prizes that were withheld in life."
+        },
+        {
+          "id": "24B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Why History Forgot Them",
+          "hook": "The woman who calculated the orbital trajectories that landed Apollo 11 on the moon was invisible for fifty years.",
+          "narrative": "Katherine Johnson and NASA's West Area Computers: Calculating launch windows, trajectories, and backup return paths by hand with pencil and mechanical calculators, called on by John Glenn before his flight.",
+          "visual_prompt": "1960s NASA Langley office, woman mathematician writing complex orbital differential equations on a large chalkboard, stacks of trajectory sheets, archival 1960s tone, vertical 9:16",
+          "takeaway": "The foundations of human triumphs are calculated quietly by minds history often overlooks."
+        },
+        {
+          "id": "24C",
+          "slot": "evening",
+          "type": "C",
+          "title": "How Credit Gets Lost in History",
+          "hook": "History isn't written by the best discoverer; it is written by the best networker with the most power.",
+          "narrative": "The 'Matthew Effect' and 'Matilda Effect' in historical science: How credit systematically flows to established figures while junior researchers, women, and marginalized pioneers get written out of the narrative.",
+          "visual_prompt": "Aged historical archive library, towering wooden shelves, leather books, a magnifying glass revealing a forgotten pencil signature in the margins of an old ledger, vertical 9:16",
+          "takeaway": "We have a duty to read the footnotes of history, because that is where the truth often hides."
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "Historical Mysteries: What Evidence Tells Us",
+      "pillar": "Mysteries & Rational Historical Inquiry",
+      "trend_signal": "Rigorous 'Known / Evidence / Unknown' framework",
+      "videos": [
+        {
+          "id": "25A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Mystery We Still Can't Fully Explain",
+          "hook": "In 1587, 115 settlers vanished on Roanoke Island, leaving behind only the word 'CROATOAN' carved on a post.",
+          "narrative": "The Lost Colony of Roanoke: John White returning in 1590 to find the deserted settlement, unforced palisade removal, assimilation with Hatteras/Croatan Native American tribes, and modern archaeological pottery shards.",
+          "visual_prompt": "Weathered 16th-century wooden palisade post in a coastal pine forest, deep carved lettering 'CROATOAN', autumn leaves, mist coming off coastal waters, vertical 9:16",
+          "takeaway": "When mystery meets desperation, people assimilate into neighboring communities to survive."
+        },
+        {
+          "id": "25B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What We Actually Know",
+          "hook": "In 1872, the Mary Celeste was found sailing perfectly in the Atlantic with all cargo intact and not a soul on board.",
+          "narrative": "The evidence: 1,700 barrels of industrial alcohol, six months of food and water, personal belongings untouched, missing lifeboat and chronometer. The plausible physics of an alcohol vapor explosion scaring the crew into a tethered boat.",
+          "visual_prompt": "1872 twin-masted brigantine ship Mary Celeste drifting under full sail on calm rolling Atlantic waters under overcast sky, completely empty deck, vertical 9:16",
+          "takeaway": "Rational explanations based on physics and panic are always more compelling than folklore."
+        },
+        {
+          "id": "25C",
+          "slot": "evening",
+          "type": "C",
+          "title": "What We Still Don't Know",
+          "hook": "Good historians don't invent conspiracies; they have the courage to say 'we do not know yet.'",
+          "narrative": "The Voynich Manuscript and Linear A: Why acknowledging the limits of our current archaeological and linguistic evidence protects historical integrity and keeps research honest.",
+          "visual_prompt": "Aged 15th-century parchment page of the Voynich manuscript with unreadable botanical illustrations and mysterious script, museum lighting, vertical 9:16",
+          "takeaway": "Intellectual honesty begins where documented evidence stops."
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "Archival History: Real Footage of a Vanished World",
+      "pillar": "POV & Archival Immersion",
+      "trend_signal": "Atmospheric early cinema & direct temporal contact",
+      "videos": [
+        {
+          "id": "26A",
+          "slot": "morning",
+          "type": "A",
+          "title": "This Is What the Past Actually Looked Like",
+          "hook": "This footage was filmed in San Francisco four days before the 1906 earthquake leveled the city.",
+          "narrative": "A Trip Down Market Street (April 1906): Cable cars, horse carriages, early motorcars crisscrossing chaotic tracks, smiling newsboys looking straight into the camera lens, alive and vibrant hours before disaster.",
+          "visual_prompt": "Vintage 1906 San Francisco Market Street, cable cars, horse-drawn buggies, bustling pedestrians in bowler hats looking into lens, authentic black-and-white grain, subtle sepia tint, vertical 9:16",
+          "takeaway": "Archival film is the closest humanity has ever come to building a time machine."
+        },
+        {
+          "id": "26B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "Old Footage That Feels Impossible Today",
+          "hook": "Watching workers build the Empire State Building without safety harnesses in 1930 feels like a dream.",
+          "narrative": "Lewis Hine's construction photography: Ironworkers casually eating lunch on a narrow steel girder 1,000 feet above Manhattan, balancing on ropes, riveting the modern skyscraper era into existence.",
+          "visual_prompt": "1930 Manhattan skyline under construction, ironworkers in flat caps and suspenders sitting on a narrow steel I-beam high above the city, authentic 1930s film grain, vertical 9:16",
+          "takeaway": "Every modern marvel you take for granted was built by humans working at dizzying personal risk."
+        },
+        {
+          "id": "26C",
+          "slot": "evening",
+          "type": "C",
+          "title": "One Minute of History You Can Actually See",
+          "hook": "Look closely at the faces of people walking down a Paris street in 1896. Every single one had hopes just like yours.",
+          "narrative": "Lumière Brothers' 1896 actualités: The gentle reality of everyday historical humans laughing, dodging mud puddles, tipping hats, reminding us the past was not a museum; it was a living present.",
+          "visual_prompt": "1890s Parisian boulevard, horse-drawn omnibus, elegant pedestrians with umbrellas strolling along cobblestone sidewalks, soft warm vintage grain, cinematic restoration look, vertical 9:16",
+          "takeaway": "They were not historical characters. They were living people who felt time ticking just like you do."
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "History Through Pop Culture: Real History vs Movies",
+      "pillar": "Royal Scandal & Pop Culture Bridge",
+      "trend_signal": "Pop culture as on-ramp to historical education",
+      "videos": [
+        {
+          "id": "27A",
+          "slot": "morning",
+          "type": "A",
+          "title": "The Movie Got This Historical Detail Wrong",
+          "hook": "Gladiators rarely fought to the death, and the thumbs-down gesture meant something completely opposite.",
+          "narrative": "The business of Roman gladiators: Highly trained, heavily fed athletes owned by lanistae, who represented enormous financial investments and rarely died in the arena unless their sponsor paid massive compensation.",
+          "visual_prompt": "Ancient Roman gladiator arming room, polished bronze helmet with heavy visor, padded leather greaves, wooden training swords on stone racks, authentic historical look, vertical 9:16",
+          "takeaway": "Entertainment companies prioritize dramatic violence over nuanced historical economics."
+        },
+        {
+          "id": "27B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "What This Famous Scene Was Based On",
+          "hook": "The pirate accent you hear in every movie was invented by one British actor in 1950.",
+          "narrative": "Robert Newton playing Long John Silver in Disney's Treasure Island (1950): Using his native West Country dialect ('Arr, matey!'), which the global entertainment industry permanently adopted as 'pirate speech.'",
+          "visual_prompt": "18th-century pirate ship deck at sea, wooden cannons, nautical charts, brass compass on wooden binnacle, authentic 18th-century maritime aesthetic, vertical 9:16",
+          "takeaway": "A single actor's performance can permanently rewrite how millions imagine an entire era."
+        },
+        {
+          "id": "27C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Real History vs Movie History",
+          "hook": "Real history is often far stranger, dirtier, and more fascinating than any scripted Hollywood movie.",
+          "narrative": "Why authentic historical nuances—bureaucratic rivalries, accidental luck, mundane logistical delays—are richer and more human than polished two-hour cinematic hero tropes.",
+          "visual_prompt": "Cinematic split-screen: Hollywood gilded movie set juxtaposed with genuine weathered archival museum artifacts and worn tools, contemplative mood, vertical 9:16",
+          "takeaway": "When you peel back the Hollywood glaze, real history has far more texture and truth."
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "theme": "History POV: Immersive Historically Grounded Reconstructions",
+      "pillar": "POV & Archival Immersion",
+      "trend_signal": "Historically grounded 3D reconstruction labeled clearly",
+      "videos": [
+        {
+          "id": "28A",
+          "slot": "morning",
+          "type": "A",
+          "title": "POV: You're Walking Through Ancient Rome",
+          "hook": "Step out of your apartment into the Subura at dawn. The smell of fresh bread and olive oil fills the air.",
+          "narrative": "Documented immersive walk: Dodging vegetable carts, hearing Latin street merchants haggle, walking past vivid red and yellow painted marble statues (not plain white stone), entering the Roman Forum.",
+          "visual_prompt": "First-person POV cinematic camera walking through a vibrant, colorfully painted Roman Subura street at sunrise, merchants opening wooden stalls, marble temples glowing in the distance, vertical 9:16",
+          "takeaway": "Ancient cities were colorful, vibrant, and alive, not cold white marble museums."
+        },
+        {
+          "id": "28B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "POV: You're in London During the Great Fire",
+          "hook": "The sky is crimson, soot falls like black snow, and the roar of timber collapsing echoes from the river.",
+          "narrative": "First-person atmospheric experience: Walking along Cheapside, feeling the heat from three streets away, watching citizens load carts, hearing the church bells tolling in alarm across the city.",
+          "visual_prompt": "First-person POV walking down a narrow 1666 London timber street, glowing orange embers drifting through smoke, silhouettes of people carrying wooden trunks toward the river, vertical 9:16",
+          "takeaway": "Immersion allows us to feel the raw fragility of human civilization when disaster strikes."
+        },
+        {
+          "id": "28C",
+          "slot": "evening",
+          "type": "C",
+          "title": "POV: You're Watching a Historical Moment Unfold",
+          "hook": "You are standing on the beach at Kitty Hawk in December 1903. Two bicycle mechanics are ready to fly.",
+          "narrative": "Orville and Wilbur Wright: Cold December wind, 12 seconds in the air, 120 feet over the North Carolina dunes, watched by five local coastal life-saving station crewmen, changing human transit forever.",
+          "visual_prompt": "First-person POV standing on cold sand dunes looking at the delicate wood-and-canvas Wright Flyer lifting off the wooden rail into gray coastal sky, vintage 1903 film tone, vertical 9:16",
+          "takeaway": "The moments that redefine our species often occur in quiet, desolate places with few witnesses."
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "theme": "2016 → 2026: Why Modern Nostalgia Strikes So Hard",
+      "pillar": "Modern Nostalgia & Cultural History",
+      "trend_signal": "2026 is the new 2016 cultural phenomenon",
+      "videos": [
+        {
+          "id": "29A",
+          "slot": "morning",
+          "type": "A",
+          "title": "Why 2026 Suddenly Feels Like 2016",
+          "hook": "A decade passed, and suddenly 2016 is being treated like ancient history.",
+          "narrative": "The 10-year cultural cycle: Summer 2016 memories (Pokémon GO, Vine, early music releases), and why digital acceleration makes a ten-year gap feel like an entire historical epoch.",
+          "visual_prompt": "Montage of mid-2010s early smartphone screens, headphone cords, sunset park crowds playing mobile games, warm nostalgic color grading, vertical 9:16",
+          "takeaway": "Digital time moves so fast that recent memories become vintage history in a single decade."
+        },
+        {
+          "id": "29B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Internet Culture People Miss",
+          "hook": "Remember when the internet was a place you visited, rather than a place you were trapped in?",
+          "narrative": "The shift from chronological feeds and creative community forums to algorithmic retention optimization, AI generated feeds, and hyper-monetized content streams.",
+          "visual_prompt": "Dim bedroom lit by the soft glow of a 2010s laptop screen showing early web communities, casual handwritten notebook, cozy nostalgic atmosphere, vertical 9:16",
+          "takeaway": "Nostalgia is rarely about the technology itself; it is about the simplicity of connection we felt."
+        },
+        {
+          "id": "29C",
+          "slot": "evening",
+          "type": "C",
+          "title": "Why Every Generation Gets Nostalgic",
+          "hook": "In 1920 they missed 1900. In 1980 they missed 1950. In 2026 we miss 2016.",
+          "narrative": "The psychological permanence of nostalgia: How human memory filters out mundane anxiety and preserves moments of youthful discovery, creating an idealized golden age in every single era.",
+          "visual_prompt": "Cinematic visual transition through vintage family photo albums spanning 1920, 1970, 2010 to 2026, warm sepia to lavender tones, vertical 9:16",
+          "takeaway": "Nostalgia is humanity's way of romanticizing the past because we already know we survived it."
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "theme": "What 30 Days of History Actually Teach Us",
+      "pillar": "Philosophy of History & Human Resilience",
+      "trend_signal": "Culmination of human resilience & living decisions",
+      "videos": [
+        {
+          "id": "30A",
+          "slot": "morning",
+          "type": "A",
+          "title": "History Isn't Just Kings and Wars",
+          "hook": "If you only study the rulers, you miss ninety-nine percent of what actually happened on Earth.",
+          "narrative": "Synthesizing 30 days: The bakers, sailors, fullers, codebreakers, forgotten mothers, and teenage visionaries who actually laid the bricks of our world while emperors posed for portraits.",
+          "visual_prompt": "Cinematic montage of ordinary historical figures: an ancient baker, a medieval carpenter, an early industrial worker, a 1940s codebreaker, warm dramatic golden lighting, vertical 9:16",
+          "takeaway": "Civilization is kept alive by the quiet diligence of billions of ordinary people."
+        },
+        {
+          "id": "30B",
+          "slot": "afternoon",
+          "type": "B",
+          "title": "The Past Was Full of People Just Like Us",
+          "hook": "They laughed at the same jokes, panicked over the same rumors, and loved their families with the same heart.",
+          "narrative": "The universal human thread: Whether facing Mount Vesuvius in 79 AD, the London fire in 1666, or technological revolutions in 2026, the human heart responds with the same mix of courage, fear, and wonder.",
+          "visual_prompt": "Seamless cinematic morphing sequence: Egyptian face carving to Roman fresco, to Renaissance oil portrait, to 1900s photograph, ending on modern reflection, vertical 9:16",
+          "takeaway": "History is not a cemetery of dead dates; it is a mirror reflecting who we still are."
+        },
+        {
+          "id": "30C",
+          "slot": "evening",
+          "type": "C",
+          "title": "30 Days of History in One Story",
+          "hook": "History isn't a list of dates. It's a record of what humans do when the world changes.",
+          "narrative": "Grand finale: Disaster → Survival → Invention → Power → Mistake → Progress → Memory. The unbroken chain of human continuity that connects every ancient spark to the device in your hand.",
+          "visual_prompt": "Epic cinematic sequence: Golden ancient papyrus fading into starry night ocean, telegraph sparks, flickering vintage film reel, leading into a tranquil sunrise over a modern city, vertical 9:16",
+          "takeaway": "History isn't a collection of dead people. It's a collection of living decisions that became consequences."
+        }
+      ]
+    }
+  ]
+}

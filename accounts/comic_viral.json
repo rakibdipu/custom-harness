@@ -1,0 +1,30 @@
+{
+  "id": "comic_viral",
+  "name": "TooReal Facts",
+  "tagline": "Too Real Not to Share",
+  "niche": "Relatable Comedy & Memes",
+  "content_types": ["short_reel", "long_video"],
+  "schedule": {
+    "short_reel": ["09:30", "12:30", "18:30", "22:00"],
+    "long_video": ["17:00"]
+  },
+  "visual_style": "comic_popart",
+  "subtitle_style": "neon_green",
+  "bgm_style": "lofi_chill",
+  "tts_voice": "en-US-ChristopherNeural",
+  "tts_rate": "+20%",
+  "color_primary": "#00FF88",
+  "color_bg": "#111111",
+  "color_text": "#FFFFFF",
+  "long_video_duration_min": 6,
+  "facebook": {
+    "page_id_env": "FB_PAGE_ID_COMIC",
+    "token_env": "FB_TOKEN_COMIC"
+  },
+  "youtube": {
+    "credentials_file": "yt_comic.pickle",
+    "client_secrets": "client_secret_comic.json"
+  },
+  "enabled": true,
+  "auto_reel_from_long": true
+}
