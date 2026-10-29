@@ -3,10 +3,12 @@ Multi-style Script Generator
 Generates scripts for: short_reel, long_video, cartoon, storytelling, comic
 Adapts to each account's identity and content type
 """
+import os
 import json
 import logging
 import aiohttp
 from tenacity import retry, stop_after_attempt, wait_exponential
+from config import Config
 
 logger = logging.getLogger(__name__)
 
@@ -142,9 +144,19 @@ from brain.knowledge_vault import KnowledgeVault
 class MultiScriptGenerator:
     def __init__(self, ollama_host: str = "http://localhost:11434",
                  model: str = "llama3.1:8b"):
+        self.config = Config()
         self.ollama_url = f"{ollama_host}/api/generate"
         self.model = model
         self.vault = KnowledgeVault()
+
+        # Cloud API credentials (MoneyPrinterTurbo feature for 0% laptop CPU/RAM load)
+        self.gemini_key = os.getenv("GEMINI_API_KEY", "").strip()
+        self.groq_key = os.getenv("GROQ_API_KEY", "").strip()
+        self.openai_key = os.getenv("OPENAI_API_KEY", "").strip()
+        self.deepseek_key = os.getenv("DEEPSEEK_API_KEY", "").strip()
+        self.openrouter_key = os.getenv("OPENROUTER_API_KEY", "").strip()
+        self.custom_base_url = os.getenv("LLM_BASE_URL", "").strip()
+        self.custom_model = os.getenv("LLM_MODEL", "").strip()
 
     async def generate(self, topic: str, content_type: str, account) -> dict:
         """Generate script for given content type and account"""
@@ -159,21 +171,38 @@ class MultiScriptGenerator:
             duration=duration
         )
 
-        payload = {
-            "model": self.model,
-            "prompt": prompt,
-            "stream": False,
-            "options": {
-                "temperature": 0.85 if content_type in ["comic", "cartoon_video"] else 0.75,
-                "top_p": 0.9,
-                "num_predict": 3000 if content_type == "long_video" else 1500,
-            }
-        }
-
         logger.info(f"Generating [{content_type}] script: '{topic[:50]}'")
 
-        # 1. Try local Ollama if available
+        # ── Tier 1: Google Gemini Flash (Cloud — 0% Laptop Load, Free, < 1s) ──
+        if self.gemini_key:
+            res = await self._call_gemini(prompt, content_type, topic, account)
+            if res:
+                return res
+
+        # ── Tier 2: Groq Cloud Llama-3.3 (Cloud — 0% Laptop Load, Ultra-Fast) ──
+        if self.groq_key:
+            res = await self._call_groq(prompt, content_type, topic, account)
+            if res:
+                return res
+
+        # ── Tier 3: OpenAI / DeepSeek / OpenRouter (Cloud) ─────────────────────
+        if self.openai_key or self.deepseek_key or self.openrouter_key or self.custom_base_url:
+            res = await self._call_openai_compatible(prompt, content_type, topic, account)
+            if res:
+                return res
+
+        # ── Tier 4: Local Ollama (Local LLM fallback) ─────────────────────────
         try:
+            payload = {
+                "model": self.model,
+                "prompt": prompt,
+                "stream": False,
+                "options": {
+                    "temperature": 0.85 if content_type in ["comic", "cartoon_video"] else 0.75,
+                    "top_p": 0.9,
+                    "num_predict": 3000 if content_type == "long_video" else 1500,
+                }
+            }
             async with aiohttp.ClientSession() as session:
                 async with session.post(
                     self.ollama_url,
@@ -185,12 +214,111 @@ class MultiScriptGenerator:
                         raw = result.get("response", "")
                         parsed = self._parse_json(raw, content_type, topic, account)
                         if parsed:
+                            logger.info(f"[Ollama Local 🖥️] Generated script via {self.model}")
                             return parsed
         except Exception:
             pass  # Fast fallback to smart dynamic generator
 
-        # 2. Smart dynamic procedural script generator
+        # ── Tier 5: Smart Dynamic Knowledge Vault (Offline, Zero Resource) ────
         return self._dynamic_script(content_type, topic, account)
+
+    async def _call_gemini(self, prompt: str, content_type: str, topic: str, account) -> dict | None:
+        """Call Google Gemini Flash via Cloud API (Zero Laptop Load)"""
+        model_name = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={self.gemini_key}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "temperature": 0.8 if content_type in ["comic", "cartoon_video"] else 0.7,
+                "responseMimeType": "application/json"
+            }
+        }
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.post(url, json=payload, timeout=aiohttp.ClientTimeout(total=15)) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        raw_text = data["candidates"][0]["content"]["parts"][0]["text"]
+                        parsed = self._parse_json(raw_text, content_type, topic, account)
+                        if parsed:
+                            logger.info(f"[Gemini Cloud ☁️] Script generated in < 1s (0% Laptop Load)")
+                            return parsed
+                    else:
+                        err_text = await resp.text()
+                        logger.warning(f"Gemini API returned status {resp.status}: {err_text[:200]}")
+        except Exception as e:
+            logger.warning(f"Gemini Cloud API call failed: {e}")
+        return None
+
+    async def _call_groq(self, prompt: str, content_type: str, topic: str, account) -> dict | None:
+        """Call Groq Cloud API (LPU Accelerated, Zero Laptop Load)"""
+        url = "https://api.groq.com/openai/v1/chat/completions"
+        model_name = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+        headers = {
+            "Authorization": f"Bearer {self.groq_key}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model_name,
+            "messages": [{"role": "user", "content": prompt}],
+            "response_format": {"type": "json_object"},
+            "temperature": 0.8 if content_type in ["comic", "cartoon_video"] else 0.7
+        }
+        try:
+            async with aiohttp.ClientSession(headers=headers) as session:
+                async with session.post(url, json=payload, timeout=aiohttp.ClientTimeout(total=15)) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        raw_text = data["choices"][0]["message"]["content"]
+                        parsed = self._parse_json(raw_text, content_type, topic, account)
+                        if parsed:
+                            logger.info(f"[Groq Cloud ⚡] Script generated in < 1s via {model_name}")
+                            return parsed
+        except Exception as e:
+            logger.warning(f"Groq Cloud API call failed: {e}")
+        return None
+
+    async def _call_openai_compatible(self, prompt: str, content_type: str, topic: str, account) -> dict | None:
+        """Call OpenAI / DeepSeek / OpenRouter compatible API"""
+        if self.deepseek_key:
+            url = "https://api.deepseek.com/chat/completions"
+            key = self.deepseek_key
+            model_name = self.custom_model or "deepseek-chat"
+        elif self.openrouter_key:
+            url = "https://openrouter.ai/api/v1/chat/completions"
+            key = self.openrouter_key
+            model_name = self.custom_model or "meta-llama/llama-3.3-70b-instruct"
+        elif self.openai_key:
+            url = "https://api.openai.com/v1/chat/completions"
+            key = self.openai_key
+            model_name = self.custom_model or "gpt-4o-mini"
+        else:
+            url = self.custom_base_url
+            key = os.getenv("LLM_API_KEY", "")
+            model_name = self.custom_model or "default"
+
+        headers = {
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model_name,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.7
+        }
+        try:
+            async with aiohttp.ClientSession(headers=headers) as session:
+                async with session.post(url, json=payload, timeout=aiohttp.ClientTimeout(total=20)) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        raw_text = data["choices"][0]["message"]["content"]
+                        parsed = self._parse_json(raw_text, content_type, topic, account)
+                        if parsed:
+                            logger.info(f"[Cloud LLM ☁️] Script generated via {model_name}")
+                            return parsed
+        except Exception as e:
+            logger.warning(f"OpenAI-compatible Cloud call failed: {e}")
+        return None
 
     def _parse_json(self, text: str, content_type: str, topic: str, account) -> dict:
         """Extract JSON from LLM response and normalize sections/cta"""

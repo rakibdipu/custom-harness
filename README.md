@@ -12,13 +12,17 @@
 
 ## 🌟 Key Features
 
-- **🤖 100% Local Script Generation:** Uses local Ollama (`llama3.1:8b`) with offline fallback script bank (`knowledge_vault.py`).
+- **🤖 Hybrid Cloud & Local Script Generation (MoneyPrinterTurbo Style):**
+  - **Cloud (0% Laptop Load):** Google Gemini 2.5 Flash, Groq (Llama-3.3-70B), OpenAI, DeepSeek, OpenRouter (<1s response, zero local RAM/CPU).
+  - **Local (100% Offline):** Ollama (`llama3.1:8b`) with dynamic Knowledge Vault fallback.
+- **🌿 Laptop Eco / Low-Resource Mode:** Built specifically for laptops — limits FFmpeg threads (`-threads 2`), lowers process priority (`os.nice`), and supports `720p` eco mode to prevent thermal throttling and fan noise.
 - **🎙️ Neural TTS & Dynamic Subtitles:** Uses `edge-tts` for high-fidelity voiceovers and word-by-word highlighted subtitle timing.
-- **🎨 4-Tier Visual / B-Roll Pipeline:** 
-  1. Local niche assets
-  2. Pollinations AI image generation
-  3. Stock APIs (Pexels / Wikimedia)
-  4. Dynamic procedural animations
+- **🎨 5-Tier Visual / B-Roll Pipeline:** 
+  1. Local niche assets (`assets/broll/<niche>/`)
+  2. **Pexels & Pixabay HD Stock Video APIs** (downloads genuine vertical 9:16 video clips)
+  3. Pollinations AI image generation
+  4. Wikimedia Commons HD photography
+  5. Dynamic procedural animations
 - **📱 Multi-Account Architecture:** Define separate personas/brands with unique visual styles, color palettes, fonts, voices, and upload targets (`accounts/*.json`).
 - **🛡️ Guardrail Quality Checker:** Automatically evaluates hooks, engagement potential, and safety before rendering (score $\ge$ 7.0 required).
 - **⏳ Video Buffer & Prebake:** Pre-render videos ahead of time into a local buffer so scheduled posts are instant.
@@ -162,6 +166,14 @@ python main.py --daemon
 ./start_runner.sh
 ./status_runner.sh
 ./stop_runner.sh
+```
+
+### 🌿 Run in Laptop-Friendly Eco Mode
+If running on a laptop or system without a dedicated GPU, use `--eco` to limit CPU threads and avoid system freezes:
+```bash
+python main.py --eco
+# Prebake buffer in eco mode
+python main.py --prebake --eco
 ```
 
 ### CLI Dashboard

@@ -492,9 +492,17 @@ async def main():
     parser.add_argument("--prebake", action="store_true", help="Pre-generate videos into buffer right now")
     parser.add_argument("--cleanup", action="store_true", help="Clean up posted videos & temp files to free disk space")
     parser.add_argument("--test", action="store_true", help="Test mode (no publish)")
+    parser.add_argument("--eco", action="store_true", help="Laptop Eco Mode (limits CPU/threads to prevent lag/fan noise)")
     parser.add_argument("--account", help="Run specific account only")
     parser.add_argument("--type", default="short_reel", help="Content type to run")
     args = parser.parse_args()
+
+    if args.eco:
+        import os
+        os.environ["LOW_RESOURCE_MODE"] = "true"
+        os.environ["VIDEO_QUALITY"] = "720p"
+        os.environ["FFMPEG_THREADS"] = "2"
+        console.print("[green]🌿 Laptop Eco Mode Active: 720p resolution, 2 FFmpeg threads, zero fan noise[/green]")
 
     console.print(Panel(
         "[bold]⚡ CUSTOM HARNESS v2.0 (BUFFER SYSTEM + DISK MANAGEMENT)[/bold]\n"

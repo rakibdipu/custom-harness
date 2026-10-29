@@ -15,19 +15,40 @@ if local_bin not in os.environ.get("PATH", ""):
 BASE_DIR = Path(__file__).parent
 
 class Config:
-    # --- LLM ---
+    # --- LLM ENGINE (Cloud & Local) ---
+    # MoneyPrinterTurbo feature: Supports Cloud APIs for 0% laptop CPU/RAM load!
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
+    GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
+    OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
+    DEEPSEEK_API_KEY: str = os.getenv("DEEPSEEK_API_KEY", "")
+    OPENROUTER_API_KEY: str = os.getenv("OPENROUTER_API_KEY", "")
+    LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "auto")  # auto | gemini | groq | openai | deepseek | ollama
+    LLM_BASE_URL: str = os.getenv("LLM_BASE_URL", "")
+    LLM_MODEL: str = os.getenv("LLM_MODEL", "")
+
+    # Local Ollama Fallback
     OLLAMA_HOST: str = os.getenv("OLLAMA_HOST", "http://localhost:11434")
     OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
+
+    # --- STOCK VIDEO / B-ROLL APIS (MoneyPrinterTurbo Feature) ---
+    PEXELS_API_KEY: str = os.getenv("PEXELS_API_KEY", "")
+    PIXABAY_API_KEY: str = os.getenv("PIXABAY_API_KEY", "")
+
+    # --- LAPTOP ECO / LOW-RESOURCE MODE ---
+    # Limits CPU usage, prevents overheating, fan noise, and OS stutter
+    LOW_RESOURCE_MODE: bool = os.getenv("LOW_RESOURCE_MODE", "false").lower() in ("true", "1", "yes")
+    VIDEO_QUALITY: str = os.getenv("VIDEO_QUALITY", "720p" if LOW_RESOURCE_MODE else "1080p")
+    FFMPEG_THREADS: int = int(os.getenv("FFMPEG_THREADS", "2" if LOW_RESOURCE_MODE else "0"))
 
     # --- CONTENT IDENTITY ---
     NICHE: str = os.getenv("NICHE", "psychology_mindset")
     CHANNEL_NAME: str = os.getenv("CHANNEL_NAME", "MindEdge")
     CHANNEL_TAGLINE: str = os.getenv("CHANNEL_TAGLINE", "Unlock Your Mental Edge")
 
-    # --- VIDEO ---
-    VIDEO_WIDTH: int = int(os.getenv("VIDEO_WIDTH", 1080))
-    VIDEO_HEIGHT: int = int(os.getenv("VIDEO_HEIGHT", 1920))
-    VIDEO_FPS: int = int(os.getenv("VIDEO_FPS", 30))
+    # --- VIDEO (Resolution automatically adapts to quality mode) ---
+    VIDEO_WIDTH: int = 720 if os.getenv("VIDEO_QUALITY", "").lower() == "720p" or LOW_RESOURCE_MODE else int(os.getenv("VIDEO_WIDTH", 1080))
+    VIDEO_HEIGHT: int = 1280 if os.getenv("VIDEO_QUALITY", "").lower() == "720p" or LOW_RESOURCE_MODE else int(os.getenv("VIDEO_HEIGHT", 1920))
+    VIDEO_FPS: int = 24 if LOW_RESOURCE_MODE else int(os.getenv("VIDEO_FPS", 30))
 
     # --- TTS ---
     TTS_VOICE: str = "en-US-GuyNeural"      # Professional US male voice

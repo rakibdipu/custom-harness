@@ -175,7 +175,18 @@ class BrollManager:
         self, keyword: str, idx: int, niche: str,
         style_info: dict, temp_dir: Path, visual_style: str
     ) -> str:
-        """Priority: Local -> Pixabay Real HD Video -> Pollinations AI -> Wikimedia -> Procedural"""
+        """Priority: Local -> Pexels HD Video -> Pixabay Real HD Video -> Pollinations AI -> Wikimedia -> Procedural"""
+
+        # ── Tier 1.5: Pexels Real HD Portrait Video (MoneyPrinterTurbo Feature) ──
+        if self.pexels_key:
+            try:
+                search_kw = self._extract_subject_keyword(keyword)
+                video_clip = await self._fetch_pexels_video(search_kw, idx, temp_dir)
+                if video_clip:
+                    logger.info(f"[Pexels Video 🎬✅] '{search_kw}' -> {Path(video_clip).name}")
+                    return video_clip
+            except Exception as e:
+                logger.debug(f"Pexels video search error for '{keyword}': {e}")
 
         # ── Tier 2: Pixabay Real HD Video Clip (Priority!) ────────────────
         if self.pixabay_key:
@@ -211,6 +222,78 @@ class BrollManager:
         # ── Tier 5: Procedural canvas fallback ────────────────────────────
         logger.info(f"[Procedural 🎨] style={visual_style}")
         return await self._create_procedural_backdrop(idx, niche, visual_style, temp_dir)
+
+    async def _fetch_pexels_video(self, keyword: str, idx: int, temp_dir: Path) -> str | None:
+        """Search and download real vertical HD video clip from Pexels Video API (MoneyPrinterTurbo Feature)"""
+        if not self.pexels_key:
+            return None
+
+        clean_kw = re.sub(r'[^a-zA-Z0-9 ]', '', keyword).strip()
+        if not clean_kw:
+            clean_kw = "cinematic atmospheric"
+
+        headers = {
+            "Authorization": self.pexels_key,
+            "User-Agent": "CustomHarness/2.0"
+        }
+        import urllib.parse
+        q_encoded = urllib.parse.quote(clean_kw)
+        url = f"https://api.pexels.com/videos/search?query={q_encoded}&orientation=portrait&per_page=15"
+
+        try:
+            async with aiohttp.ClientSession(headers=headers) as session:
+                async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as resp:
+                    if resp.status != 200:
+                        return None
+                    data = await resp.json()
+                    videos = data.get("videos", [])
+                    if not videos:
+                        words = clean_kw.split()
+                        if len(words) > 1:
+                            q_simple = urllib.parse.quote(words[0])
+                            url_simple = f"https://api.pexels.com/videos/search?query={q_simple}&orientation=portrait&per_page=10"
+                            async with session.get(url_simple, timeout=aiohttp.ClientTimeout(total=10)) as r_simple:
+                                if r_simple.status == 200:
+                                    data_s = await r_simple.json()
+                                    videos = data_s.get("videos", [])
+
+                    if not videos:
+                        return None
+
+                    fresh_vids = [v for v in videos if not await self._is_clip_used(str(v.get("id")))]
+                    candidates = fresh_vids if fresh_vids else videos
+                    chosen_vid = random.choice(candidates)
+                    clip_id = str(chosen_vid.get("id"))
+
+                    out_file = temp_dir / f"pexels_{clip_id}.mp4"
+                    if out_file.exists() and out_file.stat().st_size > 50000:
+                        await self._mark_clip_used(clip_id, clean_kw)
+                        return str(out_file)
+
+                    video_files = chosen_vid.get("video_files", [])
+                    video_url = None
+                    portrait_files = [f for f in video_files if (f.get("height", 0) or 0) > (f.get("width", 0) or 0)]
+                    target_pool = portrait_files if portrait_files else video_files
+                    for vf in target_pool:
+                        if vf.get("file_type") == "video/mp4" and vf.get("link"):
+                            video_url = vf.get("link")
+                            if vf.get("quality") == "hd":
+                                break
+
+                    if not video_url:
+                        return None
+
+                    async with session.get(video_url, timeout=aiohttp.ClientTimeout(total=30)) as v_resp:
+                        if v_resp.status == 200:
+                            content = await v_resp.read()
+                            if len(content) > 50000:
+                                async with aiofiles.open(str(out_file), "wb") as f:
+                                    await f.write(content)
+                                await self._mark_clip_used(clip_id, clean_kw)
+                                return str(out_file)
+        except Exception as e:
+            logger.debug(f"Pexels video download error: {e}")
+            return None
 
     async def _fetch_pixabay_video(self, keyword: str, idx: int, temp_dir: Path) -> str | None:
         """Search and download real HD video clip from Pixabay Video API with deduplication"""

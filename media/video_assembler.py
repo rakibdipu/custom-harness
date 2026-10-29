@@ -33,19 +33,28 @@ DARK   = (15,  15,  20)
 class VideoAssembler:
     def __init__(self):
         self.config = Config()
-        self.W = self.config.VIDEO_WIDTH    # 1080
-        self.H = self.config.VIDEO_HEIGHT   # 1920
-        self.FPS = self.config.VIDEO_FPS    # 30
+        self.W = self.config.VIDEO_WIDTH    # 1080 (or 720 in eco mode)
+        self.H = self.config.VIDEO_HEIGHT   # 1920 (or 1280 in eco mode)
+        self.FPS = self.config.VIDEO_FPS    # 30 (or 24 in eco mode)
 
-        # Font sizes
-        self.font_channel  = self._load_font("bold",    40)   # channel watermark
-        self.font_hook     = self._load_font("bold",    74)   # hero headline
-        self.font_badge    = self._load_font("bold",    42)   # section badge / chapter pill
-        self.font_body     = self._load_font("bold",    48)   # body text
-        self.font_small    = self._load_font("regular", 36)   # small labels
-        self.font_subtitle = self._load_font("bold",    58)   # burned-in subtitles
-        self.font_cta_big  = self._load_font("bold",    68)   # CTA headline
-        self.font_cta_btn  = self._load_font("bold",    46)   # CTA button text
+        # Scale fonts proportionally if running in 720p eco mode
+        scale = self.W / 1080.0
+        self.font_channel  = self._load_font("bold",    int(40 * scale))   # channel watermark
+        self.font_hook     = self._load_font("bold",    int(74 * scale))   # hero headline
+        self.font_badge    = self._load_font("bold",    int(42 * scale))   # section badge / chapter pill
+        self.font_body     = self._load_font("bold",    int(48 * scale))   # body text
+        self.font_small    = self._load_font("regular", int(36 * scale))   # small labels
+        self.font_subtitle = self._load_font("bold",    int(58 * scale))   # burned-in subtitles
+        self.font_cta_big  = self._load_font("bold",    int(68 * scale))   # CTA headline
+        self.font_cta_btn  = self._load_font("bold",    int(46 * scale))   # CTA button text
+
+        # Eco / Low Resource Mode priority adjustment
+        if getattr(self.config, 'LOW_RESOURCE_MODE', False):
+            try:
+                os.nice(10)
+                logger.info("[Eco Mode 🌿] Lowered CPU priority (os.nice=10) to prevent laptop stutter")
+            except Exception:
+                pass
 
     # ─────────────────────────────────────────────────────────────────────
     def _load_font(self, style: str, size: int) -> ImageFont.FreeTypeFont:
@@ -776,6 +785,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 output_path,
             ]
 
+        if getattr(self.config, 'FFMPEG_THREADS', 0) > 0:
+            cmd[1:1] = ["-threads", str(self.config.FFMPEG_THREADS)]
+
         proc = await asyncio.create_subprocess_exec(
             *cmd,
             stdout=asyncio.subprocess.PIPE,
@@ -908,6 +920,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             "-pix_fmt", "yuv420p",
             output_path
         ])
+
+        if getattr(self.config, 'FFMPEG_THREADS', 0) > 0:
+            cmd[1:1] = ["-threads", str(self.config.FFMPEG_THREADS)]
 
         logger.info(f"Running FFmpeg (BGM: {bgm_style})...")
         proc = await asyncio.create_subprocess_exec(
