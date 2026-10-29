@@ -26,6 +26,19 @@
   - **Facebook Pages:** Graph API upload for Reels with title, hashtags, and description.
   - **YouTube:** OAuth2 upload for Shorts and long-form video playlists.
 - **📊 Terminal Dashboard:** Built-in Rich CLI dashboard to monitor buffer status, topics, and background runner.
+---
+
+## 🎥 Sample Demo Reels (100% Autonomous Output)
+
+The following reels were generated, narrated, subtitled, and assembled completely autonomously by Custom Harness:
+
+| Niche / Style | Duration | Video Preview / Link |
+| :--- | :---: | :--- |
+| **🧠 Psychology & Mindset** | ~33s | [▶️ Watch Psychology Demo Reel](assets/demos/psychology_reel_demo.mp4) |
+| **🎭 Comic & Viral Story** | ~32s | [▶️ Watch Comic Viral Demo Reel](assets/demos/comic_viral_demo.mp4) |
+| **📖 Deep Storytelling** | ~30s | [▶️ Watch Storytelling Demo Reel](assets/demos/storytelling_demo.mp4) |
+
+> 💡 *All voiceovers, word-by-word synchronized subtitles, B-roll selection, Ken Burns panning, and background audio ducking were produced without manual editing.*
 
 ---
 
